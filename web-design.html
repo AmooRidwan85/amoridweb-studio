@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta
+    name="description"
+    content="Amorid Web Studio designs and develops modern, responsive websites for businesses."
+  >
+  <meta name="theme-color" content="#0b1120">
+
+  <title>Amorid Web Studio | Web Design &amp; Development</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap"
+    rel="stylesheet"
+  >
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+  >
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="logo.png" type="image/png">
+
+  <script src="script.js" defer></script>
+</head>
+
+<body>
+  <header class="header-site">
+    <div class="header-layout">
+      <a href="#home" class="logo" aria-label="Amorid Web Studio home">
+        <img src="logo.png" alt="">
+        <span class="logo-name">Amorid<span>Web</span><small>studio</small></span>
+      </a>
+
+      <button
+        class="menu-toggle"
+        type="button"
+        aria-label="Open navigation menu"
+        aria-expanded="false"
+        aria-controls="navigation-content"
+      >
+        <i class="fa-solid fa-bars" aria-hidden="true"></i>
+      </button>
+
+      <nav class="navigation" id="navigation-content" aria-label="Main navigation">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="#about" class="nav-link">About</a>
+
+        <div class="service-menu">
+          <a
+            href="#services"
+            class="nav-link service-toggle"
+            aria-expanded="false"
+          >
+            Services
+            <i class="fa-solid fa-chevron-down" aria-hidden="true"></i>
+          </a>
+
+          <div class="service-dropdown">
+            <a href="web-development.html">Web Development</a>
+            <a href="frontend-development.html">Frontend Development</a>
+            <a href="website-management.html">Website Management</a>
+            <a href="web-design.html">Web Design</a>
+            <a href="javascript-development.html">JavaScript Development</a>
+            <a href="ui-creation.html">UI Creation</a>
+            <a href="responsive-website.html">Responsive Websites</a>
+            <a href="website-improvement.html">Website Improvements</a>
+          </div>
+        </div>
+
+        <a href="#work" class="nav-link">Portfolio</a>
+        <a href="#contact" class="nav-link">Contact</a>
+      </nav>
+
+      <a href="#contact" class="quote-button">Get a quote</a>
+
+      <div class="social-link" aria-label="Social media">
+        <a href="#" aria-label="Instagram">
+          <i class="fa-brands fa-instagram" aria-hidden="true"></i>
+        </a>
+        <a href="#" aria-label="Facebook">
+          <i class="fa-brands fa-facebook-f" aria-hidden="true"></i>
+        </a>
+        <a href="#" aria-label="TikTok">
+          <i class="fa-brands fa-tiktok" aria-hidden="true"></i>
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+  <section class="hero section" id="home">
+    <div class="hero-grid container">
+      <div class="hero-content">
+        <div class="availability">
+          <span class="status-dot" aria-hidden="true"></span>
+          Web Design
+        </div>
+
+        <h1>
+          A website design
+          <span class="hero-accent">made for your business.</span>
+        </h1>
+
+        <p class="hero-description">
+          I design clear, responsive website experiences that help businesses
+          present their services and make a strong first impression. From page
+          layouts to colours and typography, each design decision should make
+          your website easier to understand and use.
+        </p>
+
+        <div class="hero-actions">
+          <a href="#services" class="btn btn-primary">
+            Explore my design services <span aria-hidden="true">↓</span>
+          </a>
+          <a href="#contact" class="btn btn-secondary">Discuss your project</a>
+        </div>
+      </div>
+
+      <div class="hero-visual" aria-label="Illustration of a website design">
+        <div class="visual-orbit orbit-one" aria-hidden="true"></div>
+        <div class="visual-orbit orbit-two" aria-hidden="true"></div>
+
+        <div class="code-card">
+          <div class="code-topbar">
+            <div class="window-dots" aria-hidden="true">
+              <span></span><span></span><span></span>
+            </div>
+            <span>website-concept.design</span>
+          </div>
+
+          <div class="code-body">
+            <div class="bar-show" aria-hidden="true">
+              <span class="blue"></span>
+              <span class="ink"></span>
+            </div>
+            <div class="code-page" aria-hidden="true">
+              <span class="line1"></span>
+              <span class="line2"></span>
+              <span class="line3"></span>
+              <span class="line4"></span>
+              <div class="line-btn">
+                <span class="line-btn1"></span>
+                <span class="line-btn2"></span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="floating-card card-project">
+          <span class="floating-label">Design focus</span>
+          <strong>Clear layouts. Consistent style.</strong>
+          <div class="mini-progress" aria-hidden="true"><span></span></div>
+        </div>
+
+        <div class="floating-card card-location">
+          <span class="location-icon" aria-hidden="true">✦</span>
+          <div>
+            <small>Designed for</small>
+            <strong>Your business and customers</strong>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="intro-section" id="about">
+    <div class="intro-content">
+      <p class="intro-eyebrow">MY WEB DESIGN APPROACH</p>
+
+      <h2>
+        Good design starts<br>
+        <span>with your audience.</span>
+      </h2>
+
+      <p class="intro-lead">
+        A useful website design helps visitors understand what you offer and
+        where to go next.
+      </p>
+
+      <p class="intro-description">
+        I consider your business goals, the information your visitors need, and
+        how the website will work across different devices. The result is a
+        thoughtful visual direction and page structure that can guide the
+        website build.
+      </p>
+
+      <a class="intro-link" href="#services">
+        Explore the design process <span aria-hidden="true">→</span>
+      </a>
+    </div>
+
+    <div class="intro-visual" aria-hidden="true">
+      <div class="visual-orbit orbit-one"></div>
+      <div class="visual-orbit orbit-two"></div>
+
+      <div class="visual-core">
+        <span>DESIGNED AROUND</span>
+        <strong>YOUR AUDIENCE</strong>
+      </div>
+
+      <span class="blue-ball"></span>
+      <span class="visual-tag tag-one">Clear layout</span>
+      <span class="visual-tag tag-two">Consistent style</span>
+    </div>
+  </section>
+
+  <section class="web-services section" id="services">
+    <div class="container">
+      <div class="web-services-heading">
+        <p class="intro-eyebrow">WEB DESIGN SERVICES</p>
+        <h2>Design support for a website that feels like your business.</h2>
+        <p>
+          We can shape the scope around your goals, content, and the pages your
+          website needs.
+        </p>
+      </div>
+
+      <div class="web-services-grid">
+        <article class="web-service-card">
+          <span class="web-service-number">01</span>
+          <span class="web-service-icon" aria-hidden="true">
+            <i class="fa-solid fa-sitemap"></i>
+          </span>
+          <h3>Page Structure</h3>
+          <p>
+            Plan page sections and organize content so visitors can find
+            important information.
+          </p>
+          <span class="web-service-label">STRUCTURE</span>
+        </article>
+
+        <article class="web-service-card">
+          <span class="web-service-number">02</span>
+          <span class="web-service-icon" aria-hidden="true">
+            <i class="fa-solid fa-palette"></i>
+          </span>
+          <h3>Visual Direction</h3>
+          <p>
+            Choose colours, typography, and visual details that suit your
+            business and create a consistent look.
+          </p>
+          <span class="web-service-label">VISUAL STYLE</span>
+        </article>
+
+        <article class="web-service-card">
+          <span class="web-service-number">03</span>
+          <span class="web-service-icon" aria-hidden="true">
+            <i class="fa-solid fa-table-columns"></i>
+          </span>
+          <h3>Page Layouts</h3>
+          <p>
+            Design clear layouts for key pages, with attention to content
+            hierarchy and readability.
+          </p>
+          <span class="web-service-label">LAYOUT</span>
+        </article>
+
+        <article class="web-service-card">
+          <span class="web-service-number">04</span>
+          <span class="web-service-icon" aria-hidden="true">
+            <i class="fa-solid fa-mobile-screen-button"></i>
+          </span>
+          <h3>Responsive Design</h3>
+          <p>
+            Consider how page layouts and content should adapt to mobile,
+            tablet, and desktop screens.
+          </p>
+          <span class="web-service-label">RESPONSIVE</span>
+        </article>
+
+        <article class="web-service-card">
+          <span class="web-service-number">05</span>
+          <span class="web-service-icon" aria-hidden="true">
+            <i class="fa-solid fa-eye"></i>
+          </span>
+          <h3>Usability and Accessibility</h3>
+          <p>
+            Pay attention to readable text, clear controls, and design choices
+            that support a more usable experience.
+          </p>
+          <span class="web-service-label">USABILITY</span>
+        </article>
+
+        <article class="web-service-card">
+          <span class="web-service-number">06</span>
+          <span class="web-service-icon" aria-hidden="true">
+            <i class="fa-solid fa-pen-ruler"></i>
+          </span>
+          <h3>Design Refinements</h3>
+          <p>
+            Review and refine the visual details so the pages feel more
+            consistent and polished.
+          </p>
+          <span class="web-service-label">DETAILS</span>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="business-section section" id="benefits">
+    <div class="container">
+      <div class="web-services-heading">
+        <p class="intro-eyebrow">DESIGNED WITH PURPOSE</p>
+        <h2>Help visitors feel at home on your website.</h2>
+        <p>
+          A considered design can make your business easier to understand and
+          help visitors navigate your content.
+        </p>
+      </div>
+
+      <div class="business-grid">
+        <article class="business-card">
+          <span class="business-icon" aria-hidden="true">
+            <i class="fa-solid fa-bullseye"></i>
+          </span>
+          <h3>Reflect your business</h3>
+          <p>
+            Use a consistent visual style to help your website feel connected
+            to your brand and services.
+          </p>
+        </article>
+
+        <article class="business-card">
+          <span class="business-icon" aria-hidden="true">
+            <i class="fa-solid fa-compass"></i>
+          </span>
+          <h3>Guide visitors</h3>
+          <p>
+            Organize pages and content to help people understand what to do
+            next.
+          </p>
+        </article>
+
+        <article class="business-card">
+          <span class="business-icon" aria-hidden="true">
+            <i class="fa-solid fa-mobile-screen-button"></i>
+          </span>
+          <h3>Work across devices</h3>
+          <p>
+            Plan a design that considers how people browse on phones, tablets,
+            and computers.
+          </p>
+        </article>
+
+        <article class="business-card">
+          <span class="business-icon" aria-hidden="true">
+            <i class="fa-solid fa-heart"></i>
+          </span>
+          <h3>Make content easier to use</h3>
+          <p>
+            Use readable typography, clear spacing, and familiar interface
+            patterns to support visitors.
+          </p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="cta-section" id="contact">
+    <div class="cta-content">
+      <p class="intro-eyebrow">LET’S DESIGN YOUR WEBSITE</p>
+      <h2>Have a website idea in mind?</h2>
+      <p>
+        Tell me about your business, your audience, and the kind of website
+        experience you want to create. We can discuss the right design approach
+        for your project.
+      </p>
+
+      <div class="cta-actions">
+        <a class="cta-button cta-button-primary" href="index.html#contact">
+          Start a conversation
+        </a>
+        <a class="cta-button cta-button-secondary" href="index.html#work">
+          View my work
+        </a>
+      </div>
+    </div>
+  </section>
+</main>
+</body>
+</html>

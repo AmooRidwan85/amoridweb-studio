@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta
+    name="description"
+    content="Amorid Web Studio designs and develops modern, responsive websites for businesses."
+  >
+  <meta name="theme-color" content="#0b1120">
+
+  <title>Amorid Web Studio | Web Design &amp; Development</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap"
+    rel="stylesheet"
+  >
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+  >
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="logo.png" type="image/png">
+
+  <script src="script.js" defer></script>
+</head>
+
+<body>
+  <header class="header-site">
+    <div class="header-layout">
+      <a href="#home" class="logo" aria-label="Amorid Web Studio home">
+        <img src="logo.png" alt="">
+        <span class="logo-name">Amorid<span>Web</span><small>studio</small></span>
+      </a>
+
+      <button
+        class="menu-toggle"
+        type="button"
+        aria-label="Open navigation menu"
+        aria-expanded="false"
+        aria-controls="navigation-content"
+      >
+        <i class="fa-solid fa-bars" aria-hidden="true"></i>
+      </button>
+
+      <nav class="navigation" id="navigation-content" aria-label="Main navigation">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="#about" class="nav-link">About</a>
+
+        <div class="service-menu">
+          <a
+            href="#services"
+            class="nav-link service-toggle"
+            aria-expanded="false"
+          >
+            Services
+            <i class="fa-solid fa-chevron-down" aria-hidden="true"></i>
+          </a>
+
+          <div class="service-dropdown">
+            <a href="web-development.html">Web Development</a>
+            <a href="frontend-development.html">Frontend Development</a>
+            <a href="website-management.html">Website Management</a>
+            <a href="web-design.html">Web Design</a>
+            <a href="javascript-development.html">JavaScript Development</a>
+            <a href="ui-creation.html">UI Creation</a>
+            <a href="responsive-website.html">Responsive Websites</a>
+            <a href="website-improvement.html">Website Improvements</a>
+          </div>
+        </div>
+
+        <a href="#work" class="nav-link">Portfolio</a>
+        <a href="#contact" class="nav-link">Contact</a>
+      </nav>
+
+      <a href="#contact" class="quote-button">Get a quote</a>
+
+      <div class="social-link" aria-label="Social media">
+        <a href="#" aria-label="Instagram">
+          <i class="fa-brands fa-instagram" aria-hidden="true"></i>
+        </a>
+        <a href="#" aria-label="Facebook">
+          <i class="fa-brands fa-facebook-f" aria-hidden="true"></i>
+        </a>
+        <a href="#" aria-label="TikTok">
+          <i class="fa-brands fa-tiktok" aria-hidden="true"></i>
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+  <section class="hero section" id="home">
+    <div class="hero-grid container">
+      <div class="hero-content">
+        <div class="availability">
+          <span class="status-dot" aria-hidden="true"></span>
+          UI Creation
+        </div>
+
+        <h1>
+          Interfaces that feel
+          <span class="hero-accent">clear and intuitive.</span>
+        </h1>
+
+        <p class="hero-description">
+          I create user interface designs that help people understand what
+          they can do and where to go next. From buttons and forms to complete
+          page layouts, each element is designed to feel consistent, readable,
+          and easy to use.
+        </p>
+
+        <div class="hero-actions">
+          <a href="#services" class="btn btn-primary">
+            Explore UI services <span aria-hidden="true">↓</span>
+          </a>
+          <a href="#contact" class="btn btn-secondary">Discuss your project</a>
+        </div>
+      </div>
+
+      <div class="hero-visual" aria-label="Illustration of a user interface">
+        <div class="visual-orbit orbit-one" aria-hidden="true"></div>
+        <div class="visual-orbit orbit-two" aria-hidden="true"></div>
+
+        <div class="code-card">
+          <div class="code-topbar">
+            <div class="window-dots" aria-hidden="true">
+              <span></span><span></span><span></span>
+            </div>
+            <span>interface-concept.ui</span>
+          </div>
+
+          <div class="code-body">
+            <div class="bar-show" aria-hidden="true">
+              <span class="blue"></span>
+              <span class="ink"></span>
+            </div>
+            <div class="code-page" aria-hidden="true">
+              <span class="line1"></span>
+              <span class="line2"></span>
+              <span class="line3"></span>
+              <span class="line4"></span>
+              <div class="line-btn">
+                <span class="line-btn1"></span>
+                <span class="line-btn2"></span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="floating-card card-project">
+          <span class="floating-label">UI design focus</span>
+          <strong>Consistent components. Clear interactions.</strong>
+          <div class="mini-progress" aria-hidden="true"><span></span></div>
+        </div>
+
+        <div class="floating-card card-location">
+          <span class="location-icon" aria-hidden="true">✦</span>
+          <div>
+            <small>Designed for</small>
+            <strong>People using your product</strong>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="intro-section" id="about">
+    <div class="intro-content">
+      <p class="intro-eyebrow">USER INTERFACE DESIGN</p>
+
+      <h2>
+        Every detail has<br>
+        <span>a job to do.</span>
+      </h2>
+
+      <p class="intro-lead">
+        A well-designed interface helps people focus on what matters.
+      </p>
+
+      <p class="intro-description">
+        I shape interface layouts and reusable visual elements around your
+        users and project goals. Clear hierarchy, consistent components, and
+        thoughtful interaction states help make screens easier to understand
+        and navigate.
+      </p>
+
+      <a class="intro-link" href="#services">
+        Explore UI design services <span aria-hidden="true">→</span>
+      </a>
+    </div>
+
+    <div class="intro-visual" aria-hidden="true">
+      <div class="visual-orbit orbit-one"></div>
+      <div class="visual-orbit orbit-two"></div>
+
+      <div class="visual-core">
+        <span>USER INTERFACE</span>
+        <strong>MADE TO FEEL CLEAR</strong>
+      </div>
+
+      <span class="blue-ball"></span>
+      <span class="visual-tag tag-one">Consistent components</span>
+      <span class="visual-tag tag-two">Clear interactions</span>
+    </div>
+  </section>
+
+  <section class="web-services section" id="services">
+    <div class="container">
+      <div class="web-services-heading">
+        <p class="intro-eyebrow">UI CREATION SERVICES</p>
+        <h2>Interface design for screens, systems, and real tasks.</h2>
+        <p>
+          We can define the screens and deliverables around your product,
+          audience, and development needs.
+        </p>
+      </div>
+
+      <div class="web-services-grid">
+        <article class="web-service-card">
+          <span class="web-service-number">01</span>
+          <span class="web-service-icon" aria-hidden="true">
+            <i class="fa-solid fa-table-columns"></i>
+          </span>
+          <h3>Screen and Page Design</h3>
+          <p>
+            Design clear screen layouts that organize information and make
+            important actions easy to find.
+          </p>
+          <span class="web-service-label">SCREENS</span>
+        </article>
+
+        <article class="web-service-card">
+          <span class="web-service-number">02</span>
+          <span class="web-service-icon" aria-hidden="true">
+            <i class="fa-solid fa-cubes"></i>
+          </span>
+          <h3>Reusable Components</h3>
+          <p>
+            Create consistent interface elements such as buttons, cards,
+            navigation, and form controls.
+          </p>
+          <span class="web-service-label">COMPONENTS</span>
+        </article>
+
+        <article class="web-service-card">
+          <span class="web-service-number">03</span>
+          <span class="web-service-icon" aria-hidden="true">
+            <i class="fa-solid fa-route"></i>
+          </span>
+          <h3>Interaction States</h3>
+          <p>
+            Design visual states for common interactions, including hover,
+            focus, selected, disabled, and error states.
+          </p>
+          <span class="web-service-label">INTERACTIONS</span>
+        </article>
+
+        <article class="web-service-card">
+          <span class="web-service-number">04</span>
+          <span class="web-service-icon" aria-hidden="true">
+            <i class="fa-solid fa-mobile-screen-button"></i>
+          </span>
+          <h3>Responsive Interfaces</h3>
+          <p>
+            Consider how layouts and controls adapt to different screen sizes
+            and devices.
+          </p>
+          <span class="web-service-label">RESPONSIVE UI</span>
+        </article>
+
+        <article class="web-service-card">
+          <span class="web-service-number">05</span>
+          <span class="web-service-icon" aria-hidden="true">
+            <i class="fa-solid fa-universal-access"></i>
+          </span>
+          <h3>Accessible UI Details</h3>
+          <p>
+            Keep readability, contrast, focus visibility, and clear control
+            labels in mind during design.
+          </p>
+          <span class="web-service-label">ACCESSIBILITY</span>
+        </article>
+
+        <article class="web-service-card">
+          <span class="web-service-number">06</span>
+          <span class="web-service-icon" aria-hidden="true">
+            <i class="fa-solid fa-file-arrow-up"></i>
+          </span>
+          <h3>Developer Handoff</h3>
+          <p>
+            Organize design details and component guidance to support a
+            smoother handoff to development.
+          </p>
+          <span class="web-service-label">HANDOFF</span>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="business-section section" id="benefits">
+    <div class="container">
+      <div class="web-services-heading">
+        <p class="intro-eyebrow">DESIGNED FOR PEOPLE</p>
+        <h2>Make your interface easier to understand.</h2>
+        <p>
+          Thoughtful UI design can help people navigate screens and complete
+          tasks with greater confidence.
+        </p>
+      </div>
+
+      <div class="business-grid">
+        <article class="business-card">
+          <span class="business-icon" aria-hidden="true">
+            <i class="fa-solid fa-eye"></i>
+          </span>
+          <h3>Improve visual clarity</h3>
+          <p>
+            Use hierarchy, spacing, and typography to help people scan
+            information and spot key actions.
+          </p>
+        </article>
+
+        <article class="business-card">
+          <span class="business-icon" aria-hidden="true">
+            <i class="fa-solid fa-shapes"></i>
+          </span>
+          <h3>Keep patterns consistent</h3>
+          <p>
+            Reuse components and visual rules to create a more coherent
+            experience across screens.
+          </p>
+        </article>
+
+        <article class="business-card">
+          <span class="business-icon" aria-hidden="true">
+            <i class="fa-solid fa-hand-pointer"></i>
+          </span>
+          <h3>Clarify interactions</h3>
+          <p>
+            Show how controls work and provide clear visual feedback for
+            different interface states.
+          </p>
+        </article>
+
+        <article class="business-card">
+          <span class="business-icon" aria-hidden="true">
+            <i class="fa-solid fa-people-group"></i>
+          </span>
+          <h3>Consider diverse users</h3>
+          <p>
+            Keep accessibility and different usage contexts in mind throughout
+            the design process.
+          </p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="cta-section" id="contact">
+    <div class="cta-content">
+      <p class="intro-eyebrow">LET’S DESIGN YOUR INTERFACE</p>
+      <h2>Have a screen or product idea?</h2>
+      <p>
+        Tell me about your users, the screens you need, and what the interface
+        should help them accomplish. We can discuss the right design scope for
+        your project.
+      </p>
+
+      <div class="cta-actions">
+        <a class="cta-button cta-button-primary" href="index.html#contact">
+          Discuss your project
+        </a>
+        <a class="cta-button cta-button-secondary" href="index.html#work">
+          View my work
+        </a>
+      </div>
+    </div>
+  </section>
+</main>
+</body>
+</html>

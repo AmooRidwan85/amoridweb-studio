@@ -1,0 +1,937 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta
+    name="description"
+    content="Amorid Web Studio designs and develops modern, responsive websites for businesses."
+  >
+  <meta name="theme-color" content="#0b1120">
+
+  <title>Amorid Web Studio | Web Design &amp; Development</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap"
+    rel="stylesheet"
+  >
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+  >
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="logo.png" type="image/png">
+
+  <script src="script.js" defer></script>
+</head>
+
+<body>
+  <header class="header-site">
+    <div class="header-layout">
+      <a href="#home" class="logo" aria-label="Amorid Web Studio home">
+        <img src="logo.png" alt="">
+        <span class="logo-name">Amorid<span>Web</span><small>studio</small></span>
+      </a>
+
+      <button
+        class="menu-toggle"
+        type="button"
+        aria-label="Open navigation menu"
+        aria-expanded="false"
+        aria-controls="navigation-content"
+      >
+        <i class="fa-solid fa-bars" aria-hidden="true"></i>
+      </button>
+
+      <nav class="navigation" id="navigation-content" aria-label="Main navigation">
+        <a href="#home" class="nav-link">Home</a>
+        <a href="#about" class="nav-link">About</a>
+
+        <div class="service-menu">
+          <a
+            href="#services"
+            class="nav-link service-toggle"
+            aria-expanded="false"
+          >
+            Services
+            <i class="fa-solid fa-chevron-down" aria-hidden="true"></i>
+          </a>
+
+          <div class="service-dropdown">
+            <a href="web-development.html">Web Development</a>
+            <a href="frontend-development.html">Frontend Development</a>
+            <a href="website-management.html">Website Management</a>
+            <a href="web-design.html">Web Design</a>
+            <a href="javascript-development.html">JavaScript Development</a>
+            <a href="ui-creation.html">UI Creation</a>
+            <a href="responsive-website.html">Responsive Websites</a>
+            <a href="website-improvement.html">Website Improvements</a>
+          </div>
+        </div>
+
+        <a href="#work" class="nav-link">Portfolio</a>
+        <a href="#contact" class="nav-link">Contact</a>
+      </nav>
+
+      <a href="#contact" class="quote-button">Get a quote</a>
+
+      <div class="social-link" aria-label="Social media">
+        <a href="#" aria-label="Instagram">
+          <i class="fa-brands fa-instagram" aria-hidden="true"></i>
+        </a>
+        <a href="#" aria-label="Facebook">
+          <i class="fa-brands fa-facebook-f" aria-hidden="true"></i>
+        </a>
+        <a href="#" aria-label="TikTok">
+          <i class="fa-brands fa-tiktok" aria-hidden="true"></i>
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero section" id="home">
+      <div class="hero-grid container">
+        <div class="hero-content">
+          <div class="availability">
+            <span class="status-dot" aria-hidden="true"></span>
+            Available for new projects
+          </div>
+
+          <h1>
+            Modern
+            <span class="hero-accent">websites built</span>
+            for your business.
+          </h1>
+
+          <div class="typewriter-wrapper" aria-label="I am a web designer and developer">
+            <span class="typewriter-prefix">I'm a</span>
+            <span id="typewriter" class="typewriter"></span>
+            <span class="cursor" aria-hidden="true">|</span>
+          </div>
+
+          <p class="hero-description">
+            I design and develop modern, responsive websites that are easy to use
+            and built around your business goals. From a polished first impression
+            to a smooth experience on every device, I’ll help your business stand
+            out online and connect with more customers.
+          </p>
+
+          <div class="hero-actions">
+            <a href="#work" class="btn btn-primary">
+              View my work <span aria-hidden="true">↗</span>
+            </a>
+            <a href="#contact" class="btn btn-secondary">Let’s talk</a>
+          </div>
+
+          <div class="hero-meta">
+            <div>
+              <strong>2026</strong>
+              <span>Founded</span>
+            </div>
+            <div>
+              <strong>02</strong>
+              <span>Years of experience</span>
+            </div>
+            <div>
+              <strong>Digital products</strong>
+              <span>Designed and developed</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-visual" aria-label="Illustration of a website design">
+          <div class="visual-orbit orbit-one" aria-hidden="true"></div>
+          <div class="visual-orbit orbit-two" aria-hidden="true"></div>
+
+          <div class="code-card">
+            <div class="code-topbar">
+              <div class="window-dots" aria-hidden="true">
+                <span></span><span></span><span></span>
+              </div>
+              <span>amorid.dev</span>
+            </div>
+
+            <div class="code-body">
+              <div class="bar-show" aria-hidden="true">
+                <span class="blue"></span>
+                <span class="ink"></span>
+              </div>
+
+              <div class="code-page" aria-hidden="true">
+                <span class="line1"></span>
+                <span class="line2"></span>
+                <span class="line3"></span>
+                <span class="line4"></span>
+                <div class="line-btn">
+                  <span class="line-btn1"></span>
+                  <span class="line-btn2"></span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="floating-card card-project">
+            <span class="floating-label">Current focus</span>
+            <strong>Building for the web.</strong>
+            <div class="mini-progress" aria-hidden="true"><span></span></div>
+          </div>
+
+          <div class="floating-card card-location">
+            <span class="location-icon" aria-hidden="true">✦</span>
+            <div>
+              <small>Based in</small>
+              <strong>Lagos, Nigeria</strong>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <a
+        class="scroll-indicator"
+        href="#about"
+        aria-label="Scroll down to explore the About section"
+      >
+        <span>Scroll to explore</span>
+        <span class="scroll-arrow" aria-hidden="true"></span>
+      </a>
+    </section>
+
+    <section class="marquee-section" aria-label="Our services">
+      <div class="marquee">
+        <div class="marquee-track" aria-hidden="true">
+          <span>Web development</span><i>✦</i>
+          <span>UI / UX</span><i>✦</i>
+          <span>Responsive design</span><i>✦</i>
+          <span>JavaScript</span><i>✦</i>
+          <span>Creative development</span><i>✦</i>
+          <span>Web development</span><i>✦</i>
+          <span>UI / UX</span><i>✦</i>
+          <span>Responsive design</span><i>✦</i>
+        </div>
+      </div>
+    </section>
+
+    <section class="intro-section" id="about">
+      <div class="intro-content">
+        <p class="intro-eyebrow">About Amorid Web Studio</p>
+
+        <h2>
+          Thoughtful work.<br>
+          <span>Real impact.</span>
+        </h2>
+
+        <p class="intro-lead">
+          I help businesses build clear, effective digital experiences.
+        </p>
+
+        <p class="intro-description">
+          From strategy and design to development, I create websites that look
+          polished, work smoothly, and support your business goals.
+        </p>
+
+        <a class="intro-link" href="#services">
+          Explore my services <span aria-hidden="true">→</span>
+        </a>
+      </div>
+
+      <div class="intro-visual" aria-hidden="true">
+        <div class="visual-orbit orbit-one"></div>
+        <div class="visual-orbit orbit-two"></div>
+
+        <div class="visual-core">
+          <span>BUILT AROUND</span>
+          <strong>YOUR BUSINESS</strong>
+        </div>
+
+        <span class="blue-ball"></span>
+        <span class="visual-tag tag-one">Strategy</span>
+        <span class="visual-tag tag-two">Design &amp; development</span>
+      </div>
+    </section>
+
+    <section class="services-section section" id="services">
+      <div class="services-layout container">
+        <div class="services-image">
+          <img
+            src="about image.png"
+            alt="Amorid Web Studio team working on a digital project"
+            loading="lazy"
+          >
+        </div>
+
+        <div class="services-content">
+          <p class="intro-eyebrow">ABOUT AMORID</p>
+
+          <h2>We turn bold ideas into digital experiences.</h2>
+
+          <p class="services-description">
+            Amorid Web Studio helps businesses build a stronger online presence
+            through thoughtful design and reliable web development. We create
+            websites and digital tools that are easy to use, look distinctive,
+            and support your business as it grows.
+          </p>
+
+          <div class="services-features">
+            <article class="service-feature">
+              <span class="feature-icon" aria-hidden="true">✦</span>
+              <div>
+                <h3>Made for your brand</h3>
+                <p>Distinctive design shaped around your business and audience.</p>
+              </div>
+            </article>
+
+            <article class="service-feature">
+              <span class="feature-icon" aria-hidden="true">↗</span>
+              <div>
+                <h3>Fast and easy to use</h3>
+                <p>Carefully built pages that feel smooth and load quickly.</p>
+              </div>
+            </article>
+
+            <article class="service-feature">
+              <span class="feature-icon" aria-hidden="true">✓</span>
+              <div>
+                <h3>Built with care</h3>
+                <p>Reliable development with attention to quality and security.</p>
+              </div>
+            </article>
+
+            <article class="service-feature">
+              <span class="feature-icon" aria-hidden="true">▣</span>
+              <div>
+                <h3>Works on every screen</h3>
+                <p>Responsive layouts for phones, tablets, and desktop devices.</p>
+              </div>
+            </article>
+          </div>
+
+          <a class="intro-link" href="#about">
+            More about Amorid <span aria-hidden="true">↗</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section class="web-services section" id="web-development">
+      <div class="container">
+        <div class="web-services-heading">
+          <p class="intro-eyebrow">MY SKILLS</p>
+          <h2>Web development, built around your needs.</h2>
+          <p>
+            I use modern web technologies to build responsive, interactive, and
+            user-friendly digital experiences for businesses and individuals.
+          </p>
+        </div>
+
+        <div class="web-services-grid">
+          <article class="web-service-card">
+            <span class="web-service-number">01</span>
+            <span class="web-service-icon" aria-hidden="true">&lt;/&gt;</span>
+            <h3>HTML</h3>
+            <p>Building clear, accessible, and well-structured website content.</p>
+            <span class="web-service-label">STRUCTURE</span>
+          </article>
+
+          <article class="web-service-card">
+            <span class="web-service-number">02</span>
+            <span class="web-service-icon" aria-hidden="true">#</span>
+            <h3>CSS</h3>
+            <p>Creating modern layouts, responsive designs, and attractive user interfaces.</p>
+            <span class="web-service-label">STYLING</span>
+          </article>
+
+          <article class="web-service-card">
+            <span class="web-service-number">03</span>
+            <span class="web-service-icon" aria-hidden="true">JS</span>
+            <h3>JavaScript</h3>
+            <p>Adding interactivity, functionality, and dynamic experiences to websites.</p>
+            <span class="web-service-label">INTERACTIVITY</span>
+          </article>
+
+          <article class="web-service-card">
+            <span class="web-service-number">04</span>
+            <span class="web-service-icon" aria-hidden="true">↔</span>
+            <h3>Responsive Design</h3>
+            <p>Making websites work smoothly across desktops, tablets, and mobile devices.</p>
+            <span class="web-service-label">RESPONSIVE</span>
+          </article>
+
+          <article class="web-service-card">
+            <span class="web-service-number">05</span>
+            <span class="web-service-icon" aria-hidden="true">N</span>
+            <h3>Node.js</h3>
+            <p>I’m learning backend development and exploring server-side applications.</p>
+            <span class="web-service-label">IN PROGRESS</span>
+          </article>
+
+          <article class="web-service-card">
+            <span class="web-service-number">06</span>
+            <span class="web-service-icon" aria-hidden="true">✦</span>
+            <h3>Website Development</h3>
+            <p>Bringing design and code together to create complete, useful web experiences.</p>
+            <span class="web-service-label">FULL WEBSITE</span>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="process-section" id="process">
+      <div class="process-container">
+        <header class="process-heading">
+          <p class="process-eyebrow">FROM IDEA TO WEBSITE</p>
+          <h2>A Web Development <span>Partner</span> for Your Project</h2>
+          <p class="process-intro">
+            From the first conversation to launch, I work with you to create a
+            responsive, user-friendly website that supports your goals.
+          </p>
+        </header>
+
+        <div class="process-grid">
+          <article class="process-card">
+            <span class="process-number">01</span>
+            <h3>Discover</h3>
+            <p>We discuss your idea, audience, goals, and the features your website needs.</p>
+          </article>
+
+          <article class="process-card">
+            <span class="process-number">02</span>
+            <h3>Plan &amp; Design</h3>
+            <p>I plan the structure and create a clear, attractive layout that fits your brand.</p>
+          </article>
+
+          <article class="process-card">
+            <span class="process-number">03</span>
+            <h3>Develop</h3>
+            <p>I build your website with HTML, CSS, and JavaScript, focusing on usability and responsive design.</p>
+          </article>
+
+          <article class="process-card">
+            <span class="process-number">04</span>
+            <h3>Test</h3>
+            <p>I check the website across screen sizes and browsers, and fix issues before launch.</p>
+          </article>
+
+          <article class="process-card">
+            <span class="process-number">05</span>
+            <h3>Launch</h3>
+            <p>I help prepare your website for launch so visitors can access it online.</p>
+          </article>
+
+          <article class="process-card">
+            <span class="process-number">06</span>
+            <h3>Improve</h3>
+            <p>After launch, I can help refine the website as your needs and ideas develop.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="trusted-section" aria-labelledby="trusted-title">
+  <div class="trusted-heading">
+    <h2 id="trusted-title">Trusted by Businesses Across<br />Nigeria and Beyond</h2>
+    <span class="heading-accent"></span>
+  </div>
+
+  <div class="logo-marquee" aria-label="Businesses that trust us">
+    <div class="logo-track">
+      <div class="logo-card">Kora Market</div>
+      <div class="logo-card">Lagos Makers</div>
+      <div class="logo-card">Logos Bloom</div>
+      <div class="logo-card">Northstar Finance</div>
+      <div class="logo-card logo-mark"><span>J</span><small>Jambo</small></div>
+      <div class="logo-card">Cedar &amp; Co.</div>
+      <div class="logo-card">Abuja Eats</div>
+      <div class="logo-card">Bloomfield</div>
+      <div class="logo-card logo-mark"><span>✦</span><small>Bluewave</small></div>
+      <div class="logo-card">Zuri Travel</div>
+
+      <!-- Duplicate set for a seamless loop -->
+      <div class="logo-card" aria-hidden="true">Kora Market</div>
+      <div class="logo-card" aria-hidden="true">Lagos Makers</div>
+      <div class="logo-card" aria-hidden="true">Logos Bloom</div>
+      <div class="logo-card" aria-hidden="true">Northstar Finance</div>
+      <div class="logo-card logo-mark" aria-hidden="true"><span>J</span><small>Jambo</small></div>
+      <div class="logo-card" aria-hidden="true">Cedar &amp; Co.</div>
+      <div class="logo-card" aria-hidden="true">Abuja Eats</div>
+      <div class="logo-card" aria-hidden="true">Bloomfield</div>
+      <div class="logo-card logo-mark" aria-hidden="true"><span>✦</span><small>Bluewave</small></div>
+      <div class="logo-card" aria-hidden="true">Zuri Travel</div>
+    </div>
+  </div>
+</section>
+
+    <section class="work-section" id="work">
+      <div class="work-container">
+        <header class="work-heading">
+          <p class="work-eyebrow">SELECTED WORK</p>
+          <h2>Digital Solutions Built for Real Businesses</h2>
+          <p>
+            Explore selected projects across healthcare, professional services,
+            non-profit, hospitality, e-commerce, and technology.
+          </p>
+        </header>
+
+        <div class="work-filters" aria-label="Filter projects">
+          <button class="work-filter active" data-filter="all" type="button" aria-pressed="true">All</button>
+          <button class="work-filter" data-filter="professional-services" type="button" aria-pressed="false">Professional Services</button>
+          <button class="work-filter" data-filter="healthcare" type="button" aria-pressed="false">Healthcare</button>
+          <button class="work-filter" data-filter="non-profit" type="button" aria-pressed="false">Non-Profit</button>
+          <button class="work-filter" data-filter="technology" type="button" aria-pressed="false">Technology</button>
+          <button class="work-filter" data-filter="e-commerce" type="button" aria-pressed="false">E-Commerce</button>
+          <button class="work-filter" data-filter="hospitality" type="button" aria-pressed="false">Hospitality</button>
+        </div>
+
+        <div class="work-carousel">
+          <div class="work-track">
+            <article class="work-card" data-category="professional-services">
+              <img src="https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=1000&q=80" alt="Placeholder preview for Zero-Harm International website" loading="lazy">
+              <div class="work-card-content">
+                <span class="work-category">Professional Services</span>
+                <h3>Zero-Harm International</h3>
+                <p>Health, safety, and environment consultancy website.</p>
+                <a href="#" class="work-link">View Project <span aria-hidden="true">↗</span></a>
+              </div>
+            </article>
+
+            <article class="work-card" data-category="healthcare">
+              <img src="https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?auto=format&fit=crop&w=1000&q=80" alt="Placeholder preview for Pluto BV Services website" loading="lazy">
+              <div class="work-card-content">
+                <span class="work-category">Healthcare</span>
+                <h3>Pluto BV Services</h3>
+                <p>Healthcare staffing website connecting care professionals with opportunities.</p>
+                <a href="#" class="work-link">View Project <span aria-hidden="true">↗</span></a>
+              </div>
+            </article>
+
+            <article class="work-card" data-category="non-profit">
+              <img src="https://images.unsplash.com/photo-1531206715517-5c0ba140b2b8?auto=format&fit=crop&w=1000&q=80" alt="Placeholder preview for non-profit organization website" loading="lazy">
+              <div class="work-card-content">
+                <span class="work-category">Non-Profit</span>
+                <h3>Community Impact</h3>
+                <p>A welcoming digital home for a community-focused organization.</p>
+                <a href="#" class="work-link">View Project <span aria-hidden="true">↗</span></a>
+              </div>
+            </article>
+
+            <article class="work-card" data-category="technology">
+              <img src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=1000&q=80" alt="Placeholder preview for technology company website" loading="lazy">
+              <div class="work-card-content">
+                <span class="work-category">Technology</span>
+                <h3>Northstar Tech</h3>
+                <p>A polished website for a growing technology company.</p>
+                <a href="#" class="work-link">View Project <span aria-hidden="true">↗</span></a>
+              </div>
+            </article>
+
+            <article class="work-card" data-category="e-commerce">
+              <img src="https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?auto=format&fit=crop&w=1000&q=80" alt="Placeholder preview for e-commerce website" loading="lazy">
+              <div class="work-card-content">
+                <span class="work-category">E-Commerce</span>
+                <h3>Everyday Goods</h3>
+                <p>A simple, shop-ready experience for an independent retailer.</p>
+                <a href="#" class="work-link">View Project <span aria-hidden="true">↗</span></a>
+              </div>
+            </article>
+
+            <article class="work-card" data-category="hospitality">
+              <img src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=1000&q=80" alt="Placeholder preview for hospitality website" loading="lazy">
+              <div class="work-card-content">
+                <span class="work-category">Hospitality</span>
+                <h3>The Olive Room</h3>
+                <p>A warm online presence for a local restaurant and its guests.</p>
+                <a href="#" class="work-link">View Project <span aria-hidden="true">↗</span></a>
+              </div>
+            </article>
+
+            <article class="work-card" data-category="professional-services">
+              <img src="https://images.unsplash.com/photo-1497366811353-6870744d04b2?auto=format&fit=crop&w=1000&q=80" alt="Placeholder preview for professional services website" loading="lazy">
+              <div class="work-card-content">
+                <span class="work-category">Professional Services</span>
+                <h3>Clearview Consulting</h3>
+                <p>A professional website designed to make services easy to explore.</p>
+                <a href="#" class="work-link">View Project <span aria-hidden="true">↗</span></a>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="why-section" id="why-slatech">
+      <div class="why-container">
+        <header class="why-heading">
+          <p class="why-eyebrow">WHY BUSINESSES CHOOSE AMORID WEB STUDIO</p>
+          <h2>Several Things Define Us as a <span>Technology Partner</span></h2>
+          <p>
+            We combine expertise, dedication, and innovation to deliver digital
+            solutions that truly make a difference for your business.
+          </p>
+        </header>
+
+        <div class="why-grid">
+          <article class="why-card">
+            <span class="why-icon" aria-hidden="true">◎</span>
+            <h3>Business-Focused Technology</h3>
+            <p>We don’t build technology simply for the sake of technology. Every solution starts with your business objective.</p>
+          </article>
+
+          <article class="why-card">
+            <span class="why-icon" aria-hidden="true">↗</span>
+            <h3>End-to-End Delivery</h3>
+            <p>From discovery and UI/UX to development, deployment, and support, we can manage the complete project lifecycle.</p>
+          </article>
+
+          <article class="why-card">
+            <span class="why-icon" aria-hidden="true">⌁</span>
+            <h3>Scalable Solutions</h3>
+            <p>We build with the future in mind, allowing your digital platform to evolve as your business grows.</p>
+          </article>
+
+          <article class="why-card">
+            <span class="why-icon" aria-hidden="true">☷</span>
+            <h3>Transparent Communication</h3>
+            <p>You stay informed throughout the project with clear deliverables, milestones, and progress updates.</p>
+          </article>
+
+          <article class="why-card">
+            <span class="why-icon" aria-hidden="true">◈</span>
+            <h3>Performance &amp; Security</h3>
+            <p>We prioritize performance, responsive design, security, and maintainability from the beginning.</p>
+          </article>
+
+          <article class="why-card">
+            <span class="why-icon" aria-hidden="true">♡</span>
+            <h3>Long-Term Partnership</h3>
+            <p>Our relationship doesn’t end when your project goes live. We provide ongoing support and technology services to help you keep improving.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="faq-section" id="faq">
+      <div class="faq-container">
+        <header class="faq-heading">
+          <p class="faq-eyebrow">FAQ</p>
+          <h2>Frequently Asked Questions</h2>
+          <p>
+            Everything you need to know about working with Amorid Web Studio.
+            Can’t find your answer? <a href="#contact">Reach out to us.</a>
+          </p>
+        </header>
+
+        <div class="faq-list">
+          <details class="faq-item">
+            <summary>What is Amorid Web Studio?</summary>
+            <p>Amorid Web Studio is a digital solutions studio helping businesses build and improve their online presence through web design, development, and related digital services.</p>
+          </details>
+          <details class="faq-item">
+            <summary>Does Amorid Web Studio build custom software, not just websites?</summary>
+            <p>Yes. We can create custom digital solutions tailored to your workflows and business requirements. Get in touch to discuss your project.</p>
+          </details>
+          <details class="faq-item">
+            <summary>Do you develop mobile apps?</summary>
+            <p>We can help plan and develop mobile app projects. Contact us with your requirements so we can recommend the right approach.</p>
+          </details>
+          <details class="faq-item">
+            <summary>What technologies does Amorid Web Studio use?</summary>
+            <p>We choose technologies based on each project’s goals, functionality, performance, and long-term maintenance needs.</p>
+          </details>
+          <details class="faq-item">
+            <summary>Can Amorid Web Studio handle enterprise systems like ERP and CRM?</summary>
+            <p>We can help businesses plan, build, or integrate systems such as ERP and CRM platforms. The best solution depends on your existing tools and requirements.</p>
+          </details>
+          <details class="faq-item">
+            <summary>How much does a website cost in Lagos, Nigeria?</summary>
+            <p>Website pricing depends on the project’s scope, features, content, and design requirements. Contact us for a quote tailored to your needs.</p>
+          </details>
+          <details class="faq-item">
+            <summary>How long does it take to build a website?</summary>
+            <p>The timeline depends on the size and complexity of the website, how quickly content and feedback are provided, and any custom features involved.</p>
+          </details>
+          <details class="faq-item">
+            <summary>What does your website design service include?</summary>
+            <p>Services can include project discovery, page structure, responsive design, development, testing, and launch support. The exact scope is agreed before work begins.</p>
+          </details>
+          <details class="faq-item">
+            <summary>Can you build an online store (e-commerce website)?</summary>
+            <p>Yes. We can build online stores with product pages, shopping cart, checkout, and other features suited to your business.</p>
+          </details>
+          <details class="faq-item">
+            <summary>Do you offer SEO services in Lagos?</summary>
+            <p>We can help improve your website’s search readiness and discuss SEO services based on your goals, audience, and current website.</p>
+          </details>
+          <details class="faq-item">
+            <summary>Do you provide website hosting?</summary>
+            <p>Hosting options can be discussed as part of your project. We’ll help you choose an option that fits your website’s needs.</p>
+          </details>
+          <details class="faq-item">
+            <summary>Do you offer website management and maintenance?</summary>
+            <p>Yes. Ongoing support and maintenance can help keep your website updated, secure, and working as expected.</p>
+          </details>
+          <details class="faq-item">
+            <summary>Do you handle branding and logo design?</summary>
+            <p>Branding and logo design can be included in a project or discussed as a separate service, depending on what your business needs.</p>
+          </details>
+          <details class="faq-item">
+            <summary>Do you offer web design services outside Lagos?</summary>
+            <p>Yes. We can work with clients outside Lagos and coordinate projects remotely.</p>
+          </details>
+          <details class="faq-item">
+            <summary>What industries do you work with?</summary>
+            <p>We work with businesses and organizations across a range of industries. Contact us to discuss your sector and project.</p>
+          </details>
+          <details class="faq-item">
+            <summary>How do I get started with Amorid Web Studio?</summary>
+            <p>Reach out with a brief description of your project, goals, and timeline. We’ll discuss your requirements and possible next steps.</p>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <section class="cta-section">
+      <div class="cta-content">
+        <h2>Ready to Build Something Better?</h2>
+        <p>
+          Whether you are launching a new business, improving an existing digital
+          platform, or building custom software for your organization, Amorid Web
+          Studio can help you turn your idea into a working digital solution.
+        </p>
+
+        <div class="cta-actions">
+          <a class="cta-button cta-button-primary" href="#contact">Start a Project</a>
+          <a class="cta-button cta-button-secondary" href="#contact">Talk to Our Team</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact-section" id="contact">
+      <div class="contact-container">
+        <header class="contact-heading">
+          <p class="contact-eyebrow">CONTACT</p>
+          <h2>Contact Information</h2>
+          <p>
+            Based in Ikeja, Lagos. Serving businesses across Nigeria. Reach out —
+            we are always ready to help.
+          </p>
+        </header>
+
+        <div class="contact-grid">
+          <aside class="contact-info">
+            <div class="contact-card">
+              <i class="fa-solid fa-location-dot contact-icon" aria-hidden="true"></i>
+              <div>
+                <h3>Our Office</h3>
+                <address>
+                  10, Eniyansoro Beyioku,<br>
+                  Off Ajao Road,<br>
+                  Surulere,<br>
+                  Lagos, Nigeria
+                </address>
+              </div>
+            </div>
+
+            <div class="contact-card">
+              <i class="fa-solid fa-phone contact-icon" aria-hidden="true"></i>
+              <div>
+                <h3>Phone / WhatsApp</h3>
+                <a href="tel:+2348139784622">081 3978 4622</a>
+              </div>
+            </div>
+
+            <div class="contact-card">
+              <i class="fa-regular fa-clock contact-icon" aria-hidden="true"></i>
+              <div>
+                <h3>Business Hours</h3>
+                <p>Mon – Sat: Open 24 hours<br>Sun: Closed</p>
+              </div>
+            </div>
+
+            <div class="contact-card">
+              <i class="fa-solid fa-share-nodes contact-icon" aria-hidden="true"></i>
+              <div>
+                <h3>Follow Us</h3>
+                <div class="contact-links">
+                  <a href="https://wa.me/2348139784622" target="_blank" rel="noopener noreferrer">Chat on WhatsApp</a>
+                  <a href="#" aria-label="Visit our social media">Follow Amorid Web Studio</a>
+                </div>
+              </div>
+            </div>
+          </aside>
+
+          <div class="contact-form-wrap">
+            <h3>Send Us a Message</h3>
+            <p class="form-intro">We respond within 24 hours with a free, no-obligation quote.</p>
+
+            <form id="contact-form">
+              <div class="form-row">
+                <div class="form-field">
+                  <label for="first-name">First Name <span>*</span></label>
+                  <input id="first-name" name="firstName" type="text" placeholder="e.g. Emeka" autocomplete="given-name" required>
+                </div>
+
+                <div class="form-field">
+                  <label for="last-name">Last Name <span>*</span></label>
+                  <input id="last-name" name="lastName" type="text" placeholder="e.g. Olalekan" autocomplete="family-name" required>
+                </div>
+              </div>
+
+              <div class="form-row">
+                <div class="form-field">
+                  <label for="email">Email Address <span>*</span></label>
+                  <input id="email" name="email" type="email" placeholder="you@example.com" autocomplete="email" required>
+                </div>
+
+                <div class="form-field">
+                  <label for="phone">Phone Number <small>(optional)</small></label>
+                  <input id="phone" name="phone" type="tel" placeholder="+234 xxx xxx xxxx" autocomplete="tel">
+                </div>
+              </div>
+
+              <div class="form-field">
+                <label for="service">Service Needed <span>*</span></label>
+                <select id="service" name="service" required>
+                  <option value="" disabled selected>— Select a service —</option>
+                  <option>Website Design &amp; Development</option>
+                  <option>Custom Software Development</option>
+                  <option>Mobile App Development</option>
+                  <option>E-commerce Website</option>
+                  <option>SEO Services</option>
+                  <option>Website Hosting &amp; Maintenance</option>
+                  <option>Branding &amp; Logo Design</option>
+                  <option>Other</option>
+                </select>
+              </div>
+
+              <div class="form-field">
+                <label for="message">Your Message <span>*</span></label>
+                <textarea id="message" name="message" rows="5" placeholder="Tell us about your business and what you need. The more detail, the better we can help!" required></textarea>
+              </div>
+
+              <button class="contact-submit" type="submit">Send Message</button>
+
+              <p class="form-privacy">
+                We respond within 24 hours. Your information is kept private.
+                See our <a href="/privacy-policy">Privacy Policy</a> for details.
+              </p>
+
+              <p id="form-status" class="form-status" role="status" aria-live="polite"></p>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-main">
+      <div class="footer-grid">
+        <section class="footer-brand" aria-labelledby="footer-brand-title">
+          <a class="footer-logo" href="#home" id="footer-brand-title">
+            <img src="logo.png" alt="AmoridWeb Studio Logo">
+            Amorid Web Studio
+          </a>
+          <p class="footer-tagline">Digital Product &amp; Software Development Company.</p>
+          <p>
+            Based in Lagos, Nigeria — serving clients across Nigeria and internationally.
+            We design, build and scale websites, e-commerce platforms, custom software,
+            mobile applications and cloud infrastructure.
+          </p>
+
+          <nav class="social-links" aria-label="Follow us">
+            <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f" aria-hidden="true"></i></a>
+            <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram" aria-hidden="true"></i></a>
+            <a href="#" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in" aria-hidden="true"></i></a>
+            <a href="#" aria-label="X"><i class="fa-brands fa-x-twitter" aria-hidden="true"></i></a>
+            <a href="https://wa.me/2348139784622" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp" aria-hidden="true"></i></a>
+          </nav>
+        </section>
+
+        <nav class="footer-column" aria-labelledby="services-title">
+          <h2 id="services-title">Our Services</h2>
+          <ul>
+            <li><a href="#services">Website Design</a></li>
+            <li><a href="#services">E-Commerce</a></li>
+            <li><a href="#services">Custom Software</a></li>
+            <li><a href="#services">Mobile Apps</a></li>
+            <li><a href="#services">SEO</a></li>
+            <li><a href="#services">Hosting &amp; Management</a></li>
+            <li><a href="#services">Logo and Branding</a></li>
+          </ul>
+        </nav>
+
+        <nav class="footer-column" aria-labelledby="links-title">
+          <h2 id="links-title">Quick Links</h2>
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#work">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#faq">FAQ</a></li>
+          </ul>
+        </nav>
+
+        <section class="footer-column footer-contact" aria-labelledby="footer-contact-title">
+          <h2 id="footer-contact-title">Contact Us</h2>
+          <address>
+            10, Eniyansoro Beyioku,<br>
+            Off Ajao Road,<br>
+            Surulere,<br>
+            Lagos, Nigeria
+          </address>
+          <a class="footer-phone" href="tel:+2348139784622">081 3978 4622</a>
+
+          <div class="footer-map">
+            <iframe
+              src="https://www.google.com/maps?q=Surulere%2C%20Lagos%2C%20Nigeria&output=embed"
+              title="Amorid Web Studio location in Lagos"
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+              allowfullscreen>
+            </iframe>
+          </div>
+        </section>
+      </div>
+
+      <section class="newsletter" aria-labelledby="newsletter-title">
+        <div class="newsletter-copy">
+          <h2 id="newsletter-title">Subscribe to Our Newsletter</h2>
+          <p>Get the latest insights, tips, and updates delivered straight to your inbox. No spam, we promise.</p>
+        </div>
+
+        <form class="newsletter-form">
+          <label class="visually-hidden" for="newsletter-email">Email address</label>
+          <input
+            id="newsletter-email"
+            name="email"
+            type="email"
+            placeholder="Enter your email address"
+            autocomplete="email"
+            required
+          >
+          <button type="submit">Subscribe</button>
+        </form>
+        <p class="subscribe-success" role="status" aria-live="polite"></p>
+      </section>
+    </div>
+
+    <div class="footer-bottom">
+      <p>© 2026 Amorid Web Studio. All rights reserved.</p>
+      <nav class="legal-links" aria-label="Legal links">
+        <a href="/privacy-policy">Privacy Policy</a>
+        <span aria-hidden="true">|</span>
+        <a href="#">Terms of Service</a>
+        <span aria-hidden="true">|</span>
+        <a href="#">Refund Policy</a>
+      </nav>
+    </div>
+  </footer>
+
+  <a class="floating-contact" href="#contact" aria-label="Contact us">
+    <i class="fa-solid fa-comment-dots" aria-hidden="true"></i>
+    <span>Contact Us</span>
+  </a>
+</body>
+</html>

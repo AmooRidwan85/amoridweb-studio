@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta
+    name="description"
+    content="Amorid Web Studio designs and develops modern, responsive websites for businesses."
+  >
+  <meta name="theme-color" content="#0b1120">
+
+  <title>Amorid Web Studio | Web Design &amp; Development</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap"
+    rel="stylesheet"
+  >
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+  >
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="logo.png" type="image/png">
+
+  <script src="script.js" defer></script>
+</head>
+
+<body>
+  <header class="header-site">
+    <div class="header-layout">
+      <a href="#home" class="logo" aria-label="Amorid Web Studio home">
+        <img src="logo.png" alt="">
+        <span class="logo-name">Amorid<span>Web</span><small>studio</small></span>
+      </a>
+
+      <button
+        class="menu-toggle"
+        type="button"
+        aria-label="Open navigation menu"
+        aria-expanded="false"
+        aria-controls="navigation-content"
+      >
+        <i class="fa-solid fa-bars" aria-hidden="true"></i>
+      </button>
+
+      <nav class="navigation" id="navigation-content" aria-label="Main navigation">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="#about" class="nav-link">About</a>
+
+        <div class="service-menu">
+          <a
+            href="#services"
+            class="nav-link service-toggle"
+            aria-expanded="false"
+          >
+            Services
+            <i class="fa-solid fa-chevron-down" aria-hidden="true"></i>
+          </a>
+
+          <div class="service-dropdown">
+            <a href="web-development.html">Web Development</a>
+            <a href="frontend-development.html">Frontend Development</a>
+            <a href="website-management.html">Website Management</a>
+            <a href="web-design.html">Web Design</a>
+            <a href="javascript-development.html">JavaScript Development</a>
+            <a href="ui-creation.html">UI Creation</a>
+            <a href="responsive-website.html">Responsive Websites</a>
+            <a href="website-improvement.html">Website Improvements</a>
+          </div>
+        </div>
+
+        <a href="#work" class="nav-link">Portfolio</a>
+        <a href="#contact" class="nav-link">Contact</a>
+      </nav>
+
+      <a href="#contact" class="quote-button">Get a quote</a>
+
+      <div class="social-link" aria-label="Social media">
+        <a href="#" aria-label="Instagram">
+          <i class="fa-brands fa-instagram" aria-hidden="true"></i>
+        </a>
+        <a href="#" aria-label="Facebook">
+          <i class="fa-brands fa-facebook-f" aria-hidden="true"></i>
+        </a>
+        <a href="#" aria-label="TikTok">
+          <i class="fa-brands fa-tiktok" aria-hidden="true"></i>
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+  <section class="hero section" id="home">
+    <div class="hero-grid container">
+      <div class="hero-content">
+        <div class="availability">
+          <span class="status-dot" aria-hidden="true"></span>
+          Responsive Website Design
+        </div>
+
+        <h1>
+          A website that works
+          <span class="hero-accent">on every screen.</span>
+        </h1>
+
+        <p class="hero-description">
+          I design and build websites that adapt to phones, tablets, and
+          desktops. Clear layouts, readable content, and usable interactions
+          help visitors get a consistent experience wherever they browse.
+        </p>
+
+        <div class="hero-actions">
+          <a href="#services" class="btn btn-primary">
+            Explore responsive services <span aria-hidden="true">↓</span>
+          </a>
+          <a href="#contact" class="btn btn-secondary">Discuss your project</a>
+        </div>
+      </div>
+
+      <div class="hero-visual" aria-label="Illustration of a responsive website">
+        <div class="visual-orbit orbit-one" aria-hidden="true"></div>
+        <div class="visual-orbit orbit-two" aria-hidden="true"></div>
+
+        <div class="code-card">
+          <div class="code-topbar">
+            <div class="window-dots" aria-hidden="true">
+              <span></span><span></span><span></span>
+            </div>
+            <span>responsive-layout.css</span>
+          </div>
+
+          <div class="code-body">
+            <div class="bar-show" aria-hidden="true">
+              <span class="blue"></span>
+              <span class="ink"></span>
+            </div>
+            <div class="code-page" aria-hidden="true">
+              <span class="line1"></span>
+              <span class="line2"></span>
+              <span class="line3"></span>
+              <span class="line4"></span>
+              <div class="line-btn">
+                <span class="line-btn1"></span>
+                <span class="line-btn2"></span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="floating-card card-project">
+          <span class="floating-label">Responsive design</span>
+          <strong>One website. A range of screen sizes.</strong>
+          <div class="mini-progress" aria-hidden="true"><span></span></div>
+        </div>
+
+        <div class="floating-card card-location">
+          <span class="location-icon" aria-hidden="true">✦</span>
+          <div>
+            <small>Designed for</small>
+            <strong>Mobile, tablet, and desktop</strong>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="intro-section" id="about">
+    <div class="intro-content">
+      <p class="intro-eyebrow">RESPONSIVE WEBSITE DESIGN</p>
+
+      <h2>
+        A better fit for<br>
+        <span>every screen.</span>
+      </h2>
+
+      <p class="intro-lead">
+        Your visitors should be able to use your website wherever they are.
+      </p>
+
+      <p class="intro-description">
+        I create layouts that adjust to different devices while keeping content
+        readable and important actions easy to reach. Responsive design is
+        considered throughout the process, from page structure and navigation
+        to images and interactive elements.
+      </p>
+
+      <a class="intro-link" href="#services">
+        Explore responsive services <span aria-hidden="true">→</span>
+      </a>
+    </div>
+
+    <div class="intro-visual" aria-hidden="true">
+      <div class="visual-orbit orbit-one"></div>
+      <div class="visual-orbit orbit-two"></div>
+
+      <div class="visual-core">
+        <span>RESPONSIVE DESIGN</span>
+        <strong>READY FOR EVERY SCREEN</strong>
+      </div>
+
+      <span class="blue-ball"></span>
+      <span class="visual-tag tag-one">Flexible layouts</span>
+      <span class="visual-tag tag-two">Mobile-friendly</span>
+    </div>
+  </section>
+
+  <section class="web-services section" id="services">
+    <div class="container">
+      <div class="web-services-heading">
+        <p class="intro-eyebrow">RESPONSIVE WEBSITE SERVICES</p>
+        <h2>Websites designed to adapt to your visitors’ devices.</h2>
+        <p>
+          We’ll shape the design and development scope around your existing
+          website, content, and project goals.
+        </p>
+      </div>
+
+      <div class="web-services-grid">
+        <article class="web-service-card">
+          <span class="web-service-number">01</span>
+          <span class="web-service-icon" aria-hidden="true">
+            <i class="fa-solid fa-mobile-screen-button"></i>
+          </span>
+          <h3>Mobile-Friendly Layouts</h3>
+          <p>
+            Arrange content and controls to work comfortably on smaller
+            screens and touch devices.
+          </p>
+          <span class="web-service-label">MOBILE DESIGN</span>
+        </article>
+
+        <article class="web-service-card">
+          <span class="web-service-number">02</span>
+          <span class="web-service-icon" aria-hidden="true">
+            <i class="fa-solid fa-tablet-screen-button"></i>
+          </span>
+          <h3>Flexible Page Layouts</h3>
+          <p>
+            Adapt page structure, spacing, and content presentation across
+            common screen sizes.
+          </p>
+          <span class="web-service-label">FLEXIBLE LAYOUTS</span>
+        </article>
+
+        <article class="web-service-card">
+          <span class="web-service-number">03</span>
+          <span class="web-service-icon" aria-hidden="true">
+            <i class="fa-solid fa-bars"></i>
+          </span>
+          <h3>Responsive Navigation</h3>
+          <p>
+            Make menus and navigation easier to use across touch, mouse, and
+            keyboard interactions.
+          </p>
+          <span class="web-service-label">NAVIGATION</span>
+        </article>
+
+        <article class="web-service-card">
+          <span class="web-service-number">04</span>
+          <span class="web-service-icon" aria-hidden="true">
+            <i class="fa-solid fa-image"></i>
+          </span>
+          <h3>Responsive Media</h3>
+          <p>
+            Ensure images and other visual content fit their containers and
+            suit different viewport sizes.
+          </p>
+          <span class="web-service-label">IMAGES &amp; MEDIA</span>
+        </article>
+
+        <article class="web-service-card">
+          <span class="web-service-number">05</span>
+          <span class="web-service-icon" aria-hidden="true">
+            <i class="fa-solid fa-text-height"></i>
+          </span>
+          <h3>Readable Content</h3>
+          <p>
+            Adjust typography, spacing, and content flow to support comfortable
+            reading on different devices.
+          </p>
+          <span class="web-service-label">READABILITY</span>
+        </article>
+
+        <article class="web-service-card">
+          <span class="web-service-number">06</span>
+          <span class="web-service-icon" aria-hidden="true">
+            <i class="fa-solid fa-vial"></i>
+          </span>
+          <h3>Cross-Device Checks</h3>
+          <p>
+            Review key pages and interactions at a range of viewport sizes to
+            identify layout issues.
+          </p>
+          <span class="web-service-label">RESPONSIVE TESTING</span>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="business-section section" id="benefits">
+    <div class="container">
+      <div class="web-services-heading">
+        <p class="intro-eyebrow">A CONSISTENT EXPERIENCE</p>
+        <h2>Help visitors use your website on the go.</h2>
+        <p>
+          A responsive website can make it easier for people to read, browse,
+          and take action across their devices.
+        </p>
+      </div>
+
+      <div class="business-grid">
+        <article class="business-card">
+          <span class="business-icon" aria-hidden="true">
+            <i class="fa-solid fa-book-open"></i>
+          </span>
+          <h3>Keep content readable</h3>
+          <p>
+            Arrange text and page elements to support comfortable reading on
+            both small and large screens.
+          </p>
+        </article>
+
+        <article class="business-card">
+          <span class="business-icon" aria-hidden="true">
+            <i class="fa-solid fa-compass"></i>
+          </span>
+          <h3>Make navigation practical</h3>
+          <p>
+            Help visitors find their way around with navigation suited to
+            different screen sizes and input methods.
+          </p>
+        </article>
+
+        <article class="business-card">
+          <span class="business-icon" aria-hidden="true">
+            <i class="fa-solid fa-hand-pointer"></i>
+          </span>
+          <h3>Support touch interactions</h3>
+          <p>
+            Consider spacing and control sizes so common actions are easier to
+            use on touchscreens.
+          </p>
+        </article>
+
+        <article class="business-card">
+          <span class="business-icon" aria-hidden="true">
+            <i class="fa-solid fa-display"></i>
+          </span>
+          <h3>Stay consistent across devices</h3>
+          <p>
+            Present your content and visual identity coherently, whether
+            visitors use a phone, tablet, or desktop.
+          </p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="cta-section" id="contact">
+    <div class="cta-content">
+      <p class="intro-eyebrow">LET’S MAKE YOUR WEBSITE RESPONSIVE</p>
+      <h2>Ready to improve your website on mobile?</h2>
+      <p>
+        Tell me about your website, the devices your visitors use, and what
+        you’d like to improve. We can discuss a practical responsive design
+        approach for your project.
+      </p>
+
+      <div class="cta-actions">
+        <a class="cta-button cta-button-primary" href="index.html#contact">
+          Discuss your project
+        </a>
+        <a class="cta-button cta-button-secondary" href="index.html#work">
+          View my work
+        </a>
+      </div>
+    </div>
+  </section>
+</main>
+</body>
+</html>

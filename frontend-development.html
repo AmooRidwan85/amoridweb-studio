@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta
+    name="description"
+    content="Amorid Web Studio designs and develops modern, responsive websites for businesses."
+  >
+  <meta name="theme-color" content="#0b1120">
+
+  <title>Amorid Web Studio | Web Design &amp; Development</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap"
+    rel="stylesheet"
+  >
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+  >
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="logo.png" type="image/png">
+
+  <script src="script.js" defer></script>
+</head>
+
+<body>
+  <header class="header-site">
+    <div class="header-layout">
+      <a href="#home" class="logo" aria-label="Amorid Web Studio home">
+        <img src="logo.png" alt="">
+        <span class="logo-name">Amorid<span>Web</span><small>studio</small></span>
+      </a>
+
+      <button
+        class="menu-toggle"
+        type="button"
+        aria-label="Open navigation menu"
+        aria-expanded="false"
+        aria-controls="navigation-content"
+      >
+        <i class="fa-solid fa-bars" aria-hidden="true"></i>
+      </button>
+
+      <nav class="navigation" id="navigation-content" aria-label="Main navigation">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="#about" class="nav-link">About</a>
+
+        <div class="service-menu">
+          <a
+            href="#services"
+            class="nav-link service-toggle"
+            aria-expanded="false"
+          >
+            Services
+            <i class="fa-solid fa-chevron-down" aria-hidden="true"></i>
+          </a>
+
+          <div class="service-dropdown">
+            <a href="web-development.html">Web Development</a>
+            <a href="frontend-development.html">Frontend Development</a>
+            <a href="website-management.html">Website Management</a>
+            <a href="web-design.html">Web Design</a>
+            <a href="javascript-development.html">JavaScript Development</a>
+            <a href="ui-creation.html">UI Creation</a>
+            <a href="responsive-website.html">Responsive Websites</a>
+            <a href="website-improvement.html">Website Improvements</a>
+          </div>
+        </div>
+
+        <a href="#work" class="nav-link">Portfolio</a>
+        <a href="#contact" class="nav-link">Contact</a>
+      </nav>
+
+      <a href="#contact" class="quote-button">Get a quote</a>
+
+      <div class="social-link" aria-label="Social media">
+        <a href="#" aria-label="Instagram">
+          <i class="fa-brands fa-instagram" aria-hidden="true"></i>
+        </a>
+        <a href="#" aria-label="Facebook">
+          <i class="fa-brands fa-facebook-f" aria-hidden="true"></i>
+        </a>
+        <a href="#" aria-label="TikTok">
+          <i class="fa-brands fa-tiktok" aria-hidden="true"></i>
+        </a>
+      </div>
+    </div>
+  </header>
+
+<main>
+  <section class="hero section" id="home">
+    <div class="hero-grid container">
+      <div class="hero-content">
+        <div class="availability">
+          <span class="status-dot" aria-hidden="true"></span>
+          Frontend Development
+        </div>
+
+        <h1>
+          Interfaces that look good
+          <span class="hero-accent">and feel easy to use.</span>
+        </h1>
+
+        <p class="hero-description">
+          I build the parts of a website people see and interact with. Using
+          HTML, CSS, and JavaScript, I turn ideas and designs into responsive
+          pages that are clear, accessible, and enjoyable to use.
+        </p>
+
+        <div class="hero-actions">
+          <a href="#skills" class="btn btn-primary">
+            Explore my skills <span aria-hidden="true">↓</span>
+          </a>
+          <a href="#contact" class="btn btn-secondary">Discuss a project</a>
+        </div>
+      </div>
+
+      <div class="hero-visual" aria-label="Illustration of a frontend website interface">
+        <div class="visual-orbit orbit-one" aria-hidden="true"></div>
+        <div class="visual-orbit orbit-two" aria-hidden="true"></div>
+
+        <div class="code-card">
+          <div class="code-topbar">
+            <div class="window-dots" aria-hidden="true">
+              <span></span><span></span><span></span>
+            </div>
+            <span>frontend-interface.dev</span>
+          </div>
+
+          <div class="code-body">
+            <div class="bar-show" aria-hidden="true">
+              <span class="blue"></span>
+              <span class="ink"></span>
+            </div>
+            <div class="code-page" aria-hidden="true">
+              <span class="line1"></span>
+              <span class="line2"></span>
+              <span class="line3"></span>
+              <span class="line4"></span>
+              <div class="line-btn">
+                <span class="line-btn1"></span>
+                <span class="line-btn2"></span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="floating-card card-project">
+          <span class="floating-label">Frontend focus</span>
+          <strong>Responsive, user-friendly interfaces.</strong>
+          <div class="mini-progress" aria-hidden="true"><span></span></div>
+        </div>
+
+        <div class="floating-card card-location">
+          <span class="location-icon" aria-hidden="true">✦</span>
+          <div>
+            <small>Built with</small>
+            <strong>HTML · CSS · JavaScript</strong>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="intro-section" id="about">
+    <div class="intro-content">
+      <p class="intro-eyebrow">MY FRONTEND SKILLS</p>
+
+      <h2>
+        The details people see<br>
+        <span>make a difference.</span>
+      </h2>
+
+      <p class="intro-lead">
+        Frontend development brings a website’s design and functionality
+        together in the browser.
+      </p>
+
+      <p class="intro-description">
+        I focus on building clear page structures, styling them to work across
+        screen sizes, and adding interactive features with JavaScript. I also
+        pay attention to readable content, accessible controls, and consistent
+        layouts.
+      </p>
+
+      <a class="intro-link" href="#skills">
+        View my frontend skills <span aria-hidden="true">→</span>
+      </a>
+    </div>
+
+    <div class="intro-visual" aria-hidden="true">
+      <div class="visual-orbit orbit-one"></div>
+      <div class="visual-orbit orbit-two"></div>
+
+      <div class="visual-core">
+        <span>DESIGNED TO</span>
+        <strong>WORK EVERYWHERE</strong>
+      </div>
+
+      <span class="blue-ball"></span>
+      <span class="visual-tag tag-one">Responsive</span>
+      <span class="visual-tag tag-two">Interactive</span>
+    </div>
+  </section>
+
+  <section class="skills-section section" id="skills">
+    <div class="container">
+      <div class="web-services-heading">
+        <p class="intro-eyebrow">MY FRONTEND TOOLKIT</p>
+        <h2>The core skills I use to build interfaces.</h2>
+        <p>
+          These percentages are my current self-assessment. Update them to
+          reflect your experience, and keep practising as you take on new
+          projects.
+        </p>
+      </div>
+
+      <div class="skills-list">
+        <article class="skill-item">
+          <div class="skill-heading">
+            <div>
+              <span class="skill-icon" aria-hidden="true">&lt;/&gt;</span>
+              <h3>HTML</h3>
+            </div>
+            <span class="skill-level">80%</span>
+          </div>
+          <p>
+            I use semantic HTML to organize page content and create a solid
+            structure for websites.
+          </p>
+          <div
+            class="skill-track"
+            role="progressbar"
+            aria-label="HTML skill level"
+            aria-valuemin="0"
+            aria-valuemax="100"
+            aria-valuenow="80"
+          >
+            <span class="skill-fill" style="--skill-level: 80%"></span>
+          </div>
+        </article>
+
+        <article class="skill-item">
+          <div class="skill-heading">
+            <div>
+              <span class="skill-icon" aria-hidden="true">#</span>
+              <h3>CSS</h3>
+            </div>
+            <span class="skill-level">75%</span>
+          </div>
+          <p>
+            I use CSS to create layouts, style components, and make interfaces
+            adapt to different screen sizes.
+          </p>
+          <div
+            class="skill-track"
+            role="progressbar"
+            aria-label="CSS skill level"
+            aria-valuemin="0"
+            aria-valuemax="100"
+            aria-valuenow="75"
+          >
+            <span class="skill-fill" style="--skill-level: 75%"></span>
+          </div>
+        </article>
+
+        <article class="skill-item">
+          <div class="skill-heading">
+            <div>
+              <span class="skill-icon" aria-hidden="true">JS</span>
+              <h3>JavaScript</h3>
+            </div>
+            <span class="skill-level">60%</span>
+          </div>
+          <p>
+            I use JavaScript to add interactive elements and helpful behaviour
+            to web pages.
+          </p>
+          <div
+            class="skill-track"
+            role="progressbar"
+            aria-label="JavaScript skill level"
+            aria-valuemin="0"
+            aria-valuemax="100"
+            aria-valuenow="60"
+          >
+            <span class="skill-fill" style="--skill-level: 60%"></span>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="business-section section" id="business">
+    <div class="container">
+      <div class="web-services-heading">
+        <p class="intro-eyebrow">HOW I CAN HELP</p>
+        <h2>A better experience for your website visitors.</h2>
+        <p>
+          A thoughtful frontend can help customers find information, use your
+          website on their preferred device, and take the next step with your
+          business.
+        </p>
+      </div>
+
+      <div class="business-grid">
+        <article class="business-card">
+          <span class="business-icon" aria-hidden="true">
+            <i class="fa-solid fa-mobile-screen-button"></i>
+          </span>
+          <h3>Responsive pages</h3>
+          <p>
+            I build layouts that adjust to phones, tablets, laptops, and
+            desktop screens.
+          </p>
+        </article>
+
+        <article class="business-card">
+          <span class="business-icon" aria-hidden="true">
+            <i class="fa-solid fa-compass"></i>
+          </span>
+          <h3>Clear navigation</h3>
+          <p>
+            I can organize menus and page sections so visitors can find
+            important information more easily.
+          </p>
+        </article>
+
+        <article class="business-card">
+          <span class="business-icon" aria-hidden="true">
+            <i class="fa-solid fa-wand-magic-sparkles"></i>
+          </span>
+          <h3>Interactive features</h3>
+          <p>
+            I can add useful interactions, such as mobile menus, tabs, and
+            other interface behaviours.
+          </p>
+        </article>
+
+        <article class="business-card">
+          <span class="business-icon" aria-hidden="true">
+            <i class="fa-solid fa-universal-access"></i>
+          </span>
+          <h3>Usable interfaces</h3>
+          <p>
+            I consider readable text, clear controls, and accessible structure
+            when building pages.
+          </p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="cta-section" id="contact">
+    <div class="cta-content">
+      <p class="intro-eyebrow">LET’S WORK TOGETHER</p>
+      <h2>Need a frontend for your next website?</h2>
+      <p>
+        Tell me about your idea, existing design, or website improvements.
+        Let’s discuss how I can help turn it into a responsive, user-friendly
+        experience.
+      </p>
+
+      <div class="cta-actions">
+        <a class="cta-button cta-button-primary" href="index.html#contact">
+          Start a conversation
+        </a>
+        <a class="cta-button cta-button-secondary" href="index.html#work">
+          View my work
+        </a>
+      </div>
+    </div>
+  </section>
+</main>
+</body>
+</html>

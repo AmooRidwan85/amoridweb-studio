@@ -1,0 +1,514 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Amorid Web Studio builds responsive, user-friendly websites for businesses in Lagos and across Nigeria.">
+  <meta name="theme-color" content="#0b1120">
+
+  <title>Web Development | Amorid Web Studio</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="logo.png" type="image/png">
+</head>
+
+<body>
+  <header class="header-site">
+    <div class="header-layout">
+      <a href="#home" class="logo" aria-label="Amorid Web Studio home">
+        <img src="logo.png" alt="">
+        <span class="logo-name">Amorid<span>Web</span><small>studio</small></span>
+      </a>
+
+      <button
+        class="menu-toggle"
+        type="button"
+        aria-label="Open navigation menu"
+        aria-expanded="false"
+        aria-controls="navigation-content"
+      >
+        <i class="fa-solid fa-bars" aria-hidden="true"></i>
+      </button>
+
+      <nav class="navigation" id="navigation-content" aria-label="Main navigation">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="#about" class="nav-link">About</a>
+
+        <div class="service-menu">
+          <a
+            href="#services"
+            class="nav-link service-toggle"
+            aria-expanded="false"
+          >
+            Services
+            <i class="fa-solid fa-chevron-down" aria-hidden="true"></i>
+          </a>
+
+          <div class="service-dropdown">
+            <a href="web-development.html">Web Development</a>
+            <a href="frontend-development.html">Frontend Development</a>
+            <a href="website-mangement.html">Website Management</a>
+            <a href="web-design.html">Web Design</a>
+            <a href="javascript-development.html">JavaScript Development</a>
+            <a href="ui-creation.html">UI Creation</a>
+            <a href="responsive-website.html">Responsive Websites</a>
+            <a href="website-improvement.html">Website Improvements</a>
+          </div>
+        </div>
+
+        <a href="#work" class="nav-link">Portfolio</a>
+        <a href="#contact" class="nav-link">Contact</a>
+      </nav>
+
+      <a href="#contact" class="quote-button">Get a quote</a>
+
+      <div class="social-link" aria-label="Social media">
+        <a href="#" aria-label="Instagram">
+          <i class="fa-brands fa-instagram" aria-hidden="true"></i>
+        </a>
+        <a href="#" aria-label="Facebook">
+          <i class="fa-brands fa-facebook-f" aria-hidden="true"></i>
+        </a>
+        <a href="#" aria-label="TikTok">
+          <i class="fa-brands fa-tiktok" aria-hidden="true"></i>
+        </a>
+      </div>
+    </div>
+  </header>
+
+    <main>
+    <section class="hero section" id="home">
+      <div class="hero-grid container">
+        <div class="hero-content">
+          <div class="availability">
+            <span class="status-dot" aria-hidden="true"></span>
+            Web Development
+          </div>
+
+          <h1>
+            I build websites
+            <span class="hero-accent">that help businesses</span>
+            grow online.
+          </h1>
+
+          <p class="hero-description">
+            I use HTML, CSS, and JavaScript to create modern, responsive
+            websites. My focus is on clear layouts, easy-to-use experiences,
+            and websites that help businesses share what they do with the right
+            people.
+          </p>
+
+          <div class="hero-actions">
+            <a href="#skills" class="btn btn-primary">
+              Explore my skills <span aria-hidden="true">↓</span>
+            </a>
+            <a href="#contact" class="btn btn-secondary">Let’s work together</a>
+          </div>
+        </div>
+
+        <div class="hero-visual" aria-label="Illustration of a website in development">
+          <div class="visual-orbit orbit-one" aria-hidden="true"></div>
+          <div class="visual-orbit orbit-two" aria-hidden="true"></div>
+
+          <div class="code-card">
+            <div class="code-topbar">
+              <div class="window-dots" aria-hidden="true">
+                <span></span><span></span><span></span>
+              </div>
+              <span>my-skills.dev</span>
+            </div>
+
+            <div class="code-body">
+              <div class="bar-show" aria-hidden="true">
+                <span class="blue"></span>
+                <span class="ink"></span>
+              </div>
+
+              <div class="code-page" aria-hidden="true">
+                <span class="line1"></span>
+                <span class="line2"></span>
+                <span class="line3"></span>
+                <span class="line4"></span>
+                <div class="line-btn">
+                  <span class="line-btn1"></span>
+                  <span class="line-btn2"></span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="floating-card card-project">
+            <span class="floating-label">My approach</span>
+            <strong>Thoughtful code. Useful websites.</strong>
+            <div class="mini-progress" aria-hidden="true"><span></span></div>
+          </div>
+
+          <div class="floating-card card-location">
+            <span class="location-icon" aria-hidden="true">✦</span>
+            <div>
+              <small>Core tools</small>
+              <strong>HTML · CSS · JavaScript</strong>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="web-dev-section">
+  <div class="web-dev-content">
+    <p class="eyebrow">Website Design &amp; Development</p>
+    <h2>Websites That Do More Than Look Good</h2>
+
+    <p class="intro">
+      Your website is often the first interaction a potential customer has
+      with your business. We build professional websites that combine strong
+      visual design, intuitive user experience, responsive performance and
+      search-engine-friendly architecture.
+    </p>
+
+    <div class="web-dev-lists">
+      <div>
+        <h3>We Build</h3>
+        <ul>
+          <li>Corporate websites</li>
+          <li>Business websites</li>
+          <li>WordPress websites</li>
+          <li>Custom websites</li>
+          <li>Landing pages</li>
+          <li>Professional service websites</li>
+          <li>Organization and NGO websites</li>
+          <li>Membership websites</li>
+          <li>Web portals</li>
+        </ul>
+      </div>
+
+      <div>
+        <h3>Every Project Can Include</h3>
+        <ul>
+          <li>UI/UX design</li>
+          <li>Responsive development</li>
+          <li>CMS integration</li>
+          <li>Contact and lead forms</li>
+          <li>SEO-friendly architecture</li>
+          <li>Analytics</li>
+          <li>Security configuration</li>
+          <li>Performance optimization</li>
+          <li>Hosting and deployment</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <div class="web-dev-image">
+    <img
+      src="web-dev img.jpg"
+      alt="Web development team designing a responsive website"
+      loading="lazy"
+    >
+  </div>
+</section>
+
+<section class="ecommerce-section">
+  <div class="ecommerce-image">
+    <img
+      src="e-com image.jpg"
+      alt="Online store displayed on a laptop"
+      loading="lazy"
+    >
+  </div>
+
+  <div class="ecommerce-content">
+    <p class="eyebrow">E-Commerce Development</p>
+    <h2>Turn Your Website Into a Sales Platform</h2>
+
+    <p class="intro">
+      We build e-commerce solutions that make it easier for businesses to sell
+      products and services online.
+    </p>
+
+    <h3>Features Can Include</h3>
+    <ul class="ecommerce-features">
+      <li>Product management</li>
+      <li>Shopping cart</li>
+      <li>Secure checkout</li>
+      <li>Payment gateway integration</li>
+      <li>Paystack integration</li>
+      <li>Flutterwave integration</li>
+      <li>Customer accounts</li>
+      <li>Order management</li>
+      <li>Inventory management</li>
+      <li>Product search and filtering</li>
+      <li>Discounts and promotions</li>
+      <li>Delivery configuration</li>
+      <li>Sales reporting</li>
+      <li>Admin dashboards</li>
+    </ul>
+
+    <a class="ecommerce-button" href="contact.html">Build an Online Store</a>
+  </div>
+</section>
+
+<section class="branding-section">
+  <div class="branding-content">
+    <p class="eyebrow">Branding &amp; Creative Design</p>
+    <h2>Build a Brand People Remember</h2>
+
+    <p class="intro">
+      Your digital presence should look and feel consistent across every
+      customer touchpoint.
+    </p>
+
+    <h3>Creative Services</h3>
+    <ul class="branding-services">
+      <li>Logo design</li>
+      <li>Brand identity</li>
+      <li>Brand guidelines</li>
+      <li>Business stationery</li>
+      <li>Marketing materials</li>
+      <li>Social media graphics</li>
+      <li>Presentation design</li>
+      <li>Digital graphics</li>
+    </ul>
+
+    <a class="branding-button" href="contact.html">Build Your Brand</a>
+  </div>
+
+  <div class="branding-image">
+    <img
+      src="logo creation.jpg"
+      alt="Brand identity and creative design materials"
+      loading="lazy"
+    >
+  </div>
+</section>
+
+    <section class="intro-section" id="about">
+      <div class="intro-content">
+        <p class="intro-eyebrow">MY WEB DEVELOPMENT SKILLS</p>
+
+        <h2>
+          Turning ideas<br>
+          <span>into working websites.</span>
+        </h2>
+
+        <p class="intro-lead">
+          I bring structure, design, and interactivity together to create
+          websites people can use with confidence.
+        </p>
+
+        <p class="intro-description">
+          I build with the core technologies of the web and keep learning as
+          tools and techniques evolve. I care about writing organized code,
+          making pages responsive, and creating an experience that feels clear
+          on every screen.
+        </p>
+
+        <a class="intro-link" href="#skills">
+          See my core skills <span aria-hidden="true">→</span>
+        </a>
+      </div>
+
+      <div class="intro-visual" aria-hidden="true">
+        <div class="visual-orbit orbit-one"></div>
+        <div class="visual-orbit orbit-two"></div>
+
+        <div class="visual-core">
+          <span>BUILT WITH</span>
+          <strong>HTML · CSS · JS</strong>
+        </div>
+
+        <span class="blue-ball"></span>
+        <span class="visual-tag tag-one">Structure</span>
+        <span class="visual-tag tag-two">Interactivity</span>
+      </div>
+    </section>
+
+    <section class="skills-section section" id="skills">
+      <div class="container">
+        <div class="web-services-heading">
+          <p class="intro-eyebrow">MY CORE SKILLS</p>
+          <h2>The building blocks I use to create websites.</h2>
+          <p>
+            These skill bars represent my current self-assessment. I’m
+            continuing to practise and improve with every project.
+          </p>
+        </div>
+
+        <div class="skills-list">
+          <article class="skill-item">
+            <div class="skill-heading">
+              <div>
+                <span class="skill-icon" aria-hidden="true">&lt;/&gt;</span>
+                <h3>HTML</h3>
+              </div>
+              <span class="skill-level">93%</span>
+            </div>
+            <p>
+              I use HTML to build well-structured pages with meaningful,
+              accessible content.
+            </p>
+            <div
+              class="skill-track"
+              role="progressbar"
+              aria-label="HTML skill level"
+              aria-valuemin="0"
+              aria-valuemax="100"
+              aria-valuenow="80"
+            >
+              <span class="skill-fill" style="--skill-level: 93%"></span>
+            </div>
+          </article>
+
+          <article class="skill-item">
+            <div class="skill-heading">
+              <div>
+                <span class="skill-icon" aria-hidden="true">#</span>
+                <h3>CSS</h3>
+              </div>
+              <span class="skill-level">80%</span>
+            </div>
+            <p>
+              I use CSS to style pages, create layouts, and make websites adapt
+              to different screen sizes.
+            </p>
+            <div
+              class="skill-track"
+              role="progressbar"
+              aria-label="CSS skill level"
+              aria-valuemin="0"
+              aria-valuemax="100"
+              aria-valuenow="75"
+            >
+              <span class="skill-fill" style="--skill-level: 80%"></span>
+            </div>
+          </article>
+
+          <article class="skill-item">
+            <div class="skill-heading">
+              <div>
+                <span class="skill-icon" aria-hidden="true">JS</span>
+                <h3>JavaScript</h3>
+              </div>
+              <span class="skill-level">60%</span>
+            </div>
+            <p>
+              I use JavaScript to add interactive features and useful
+              functionality to websites, and I’m continuing to develop my
+              skills.
+            </p>
+            <div
+              class="skill-track"
+              role="progressbar"
+              aria-label="JavaScript skill level"
+              aria-valuemin="0"
+              aria-valuemax="100"
+              aria-valuenow="60"
+            >
+              <span class="skill-fill" style="--skill-level: 60%"></span>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="business-section section" id="business">
+      <div class="container">
+        <div class="web-services-heading">
+          <p class="intro-eyebrow">HOW I CAN HELP YOUR BUSINESS</p>
+          <h2>A website that works for your business and your customers.</h2>
+          <p>
+            Your website can help people understand what you offer, build trust,
+            and take the next step. I can help you create or improve that
+            experience.
+          </p>
+        </div>
+
+        <div class="business-grid">
+          <article class="business-card">
+            <span class="business-icon" aria-hidden="true">
+              <i class="fa-solid fa-bullseye"></i>
+            </span>
+            <h3>Present your business clearly</h3>
+            <p>
+              Organize your content so visitors can quickly understand your
+              services, your value, and how to reach you.
+            </p>
+          </article>
+
+          <article class="business-card">
+            <span class="business-icon" aria-hidden="true">
+              <i class="fa-solid fa-mobile-screen-button"></i>
+            </span>
+            <h3>Reach customers on any device</h3>
+            <p>
+              Build a responsive experience that is easier to use on phones,
+              tablets, and desktop screens.
+            </p>
+          </article>
+
+          <article class="business-card">
+            <span class="business-icon" aria-hidden="true">
+              <i class="fa-solid fa-hand-pointer"></i>
+            </span>
+            <h3>Make it easier to take action</h3>
+            <p>
+              Give visitors clear ways to contact you, learn about your
+              services, or make an enquiry.
+            </p>
+          </article>
+
+          <article class="business-card">
+            <span class="business-icon" aria-hidden="true">
+              <i class="fa-solid fa-arrows-rotate"></i>
+            </span>
+            <h3>Improve your existing website</h3>
+            <p>
+              Update the layout, content, or functionality of your current
+              website to better support your business needs.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="cta-section" id="contact">
+      <div class="cta-content">
+        <p class="intro-eyebrow">LET’S BUILD SOMETHING</p>
+        <h2>Ready to bring your website idea to life?</h2>
+        <p>
+          Tell me about your business, what you want your website to do, and
+          what you have in mind. I’d be happy to discuss your project and how I
+          can help.
+        </p>
+
+        <div class="cta-actions">
+          <a class="cta-button cta-button-primary" href="index.html#contact">
+            Start a conversation
+          </a>
+          <a class="cta-button cta-button-secondary" href="index.html#work">
+            View my work
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-bottom">
+      <p>© 2026 Amorid Web Studio. All rights reserved.</p>
+      <nav class="legal-links" aria-label="Footer navigation">
+        <a href="index.html">Home</a>
+        <span aria-hidden="true">|</span>
+        <a href="index.html#work">Portfolio</a>
+        <span aria-hidden="true">|</span>
+        <a href="index.html#contact">Contact</a>
+      </nav>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta
+    name="description"
+    content="Amorid Web Studio designs and develops modern, responsive websites for businesses."
+  >
+  <meta name="theme-color" content="#0b1120">
+
+  <title>Amorid Web Studio | Web Design &amp; Development</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap"
+    rel="stylesheet"
+  >
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+  >
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="logo.png" type="image/png">
+
+  <script src="script.js" defer></script>
+</head>
+
+<body>
+  <header class="header-site">
+    <div class="header-layout">
+      <a href="#home" class="logo" aria-label="Amorid Web Studio home">
+        <img src="logo.png" alt="">
+        <span class="logo-name">Amorid<span>Web</span><small>studio</small></span>
+      </a>
+
+      <button
+        class="menu-toggle"
+        type="button"
+        aria-label="Open navigation menu"
+        aria-expanded="false"
+        aria-controls="navigation-content"
+      >
+        <i class="fa-solid fa-bars" aria-hidden="true"></i>
+      </button>
+
+      <nav class="navigation" id="navigation-content" aria-label="Main navigation">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="#about" class="nav-link">About</a>
+
+        <div class="service-menu">
+          <a
+            href="#services"
+            class="nav-link service-toggle"
+            aria-expanded="false"
+          >
+            Services
+            <i class="fa-solid fa-chevron-down" aria-hidden="true"></i>
+          </a>
+
+          <div class="service-dropdown">
+            <a href="web-development.html">Web Development</a>
+            <a href="frontend-development.html">Frontend Development</a>
+            <a href="website-management.html">Website Management</a>
+            <a href="web-design.html">Web Design</a>
+            <a href="javascript-development.html">JavaScript Development</a>
+            <a href="ui-creation.html">UI Creation</a>
+            <a href="responsive-website.html">Responsive Websites</a>
+            <a href="website-improvement.html">Website Improvements</a>
+          </div>
+        </div>
+
+        <a href="#work" class="nav-link">Portfolio</a>
+        <a href="#contact" class="nav-link">Contact</a>
+      </nav>
+
+      <a href="#contact" class="quote-button">Get a quote</a>
+
+      <div class="social-link" aria-label="Social media">
+        <a href="#" aria-label="Instagram">
+          <i class="fa-brands fa-instagram" aria-hidden="true"></i>
+        </a>
+        <a href="#" aria-label="Facebook">
+          <i class="fa-brands fa-facebook-f" aria-hidden="true"></i>
+        </a>
+        <a href="#" aria-label="TikTok">
+          <i class="fa-brands fa-tiktok" aria-hidden="true"></i>
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+  <section class="hero section" id="home">
+    <div class="hero-grid container">
+      <div class="hero-content">
+        <div class="availability">
+          <span class="status-dot" aria-hidden="true"></span>
+          JavaScript Development
+        </div>
+
+        <h1>
+          Make your website
+          <span class="hero-accent">interactive and useful.</span>
+        </h1>
+
+        <p class="hero-description">
+          I build JavaScript features that help websites respond to visitors
+          and handle everyday tasks. From interactive forms to dynamic page
+          elements, I focus on functionality that is clear, reliable, and
+          suited to your project.
+        </p>
+
+        <div class="hero-actions">
+          <a href="#services" class="btn btn-primary">
+            Explore development services <span aria-hidden="true">↓</span>
+          </a>
+          <a href="#contact" class="btn btn-secondary">Discuss your project</a>
+        </div>
+      </div>
+
+      <div class="hero-visual" aria-label="Illustration of JavaScript code">
+        <div class="visual-orbit orbit-one" aria-hidden="true"></div>
+        <div class="visual-orbit orbit-two" aria-hidden="true"></div>
+
+        <div class="code-card">
+          <div class="code-topbar">
+            <div class="window-dots" aria-hidden="true">
+              <span></span><span></span><span></span>
+            </div>
+            <span>interactive-feature.js</span>
+          </div>
+
+          <div class="code-body">
+            <div class="bar-show" aria-hidden="true">
+              <span class="blue"></span>
+              <span class="ink"></span>
+            </div>
+            <div class="code-page" aria-hidden="true">
+              <span class="line1"></span>
+              <span class="line2"></span>
+              <span class="line3"></span>
+              <span class="line4"></span>
+              <div class="line-btn">
+                <span class="line-btn1"></span>
+                <span class="line-btn2"></span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="floating-card card-project">
+          <span class="floating-label">Development focus</span>
+          <strong>Useful interactions, built with care.</strong>
+          <div class="mini-progress" aria-hidden="true"><span></span></div>
+        </div>
+
+        <div class="floating-card card-location">
+          <span class="location-icon" aria-hidden="true">✦</span>
+          <div>
+            <small>Built for</small>
+            <strong>Your website and users</strong>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="intro-section" id="about">
+    <div class="intro-content">
+      <p class="intro-eyebrow">JAVASCRIPT DEVELOPMENT</p>
+
+      <h2>
+        Functionality that<br>
+        <span>makes sense to use.</span>
+      </h2>
+
+      <p class="intro-lead">
+        Interactive features should make a website easier—not harder—to use.
+      </p>
+
+      <p class="intro-description">
+        I develop front-end functionality to support your website’s goals,
+        whether that means improving a form, adding dynamic content, or
+        creating a more engaging interaction. I aim for solutions that work
+        clearly for visitors and fit the needs of your project.
+      </p>
+
+      <a class="intro-link" href="#services">
+        Explore development services <span aria-hidden="true">→</span>
+      </a>
+    </div>
+
+    <div class="intro-visual" aria-hidden="true">
+      <div class="visual-orbit orbit-one"></div>
+      <div class="visual-orbit orbit-two"></div>
+
+      <div class="visual-core">
+        <span>JAVASCRIPT</span>
+        <strong>INTERACTIVE FEATURES</strong>
+      </div>
+
+      <span class="blue-ball"></span>
+      <span class="visual-tag tag-one">Useful interactions</span>
+      <span class="visual-tag tag-two">Responsive behavior</span>
+    </div>
+  </section>
+
+  <section class="web-services section" id="services">
+    <div class="container">
+      <div class="web-services-heading">
+        <p class="intro-eyebrow">DEVELOPMENT SERVICES</p>
+        <h2>Front-end functionality for real website needs.</h2>
+        <p>
+          We’ll define the feature, requirements, and scope together before
+          development begins.
+        </p>
+      </div>
+
+      <div class="web-services-grid">
+        <article class="web-service-card">
+          <span class="web-service-number">01</span>
+          <span class="web-service-icon" aria-hidden="true">
+            <i class="fa-solid fa-wand-magic-sparkles"></i>
+          </span>
+          <h3>Interactive Elements</h3>
+          <p>
+            Add purposeful interactions such as tabs, accordions, menus, and
+            other dynamic page elements.
+          </p>
+          <span class="web-service-label">INTERACTIONS</span>
+        </article>
+
+        <article class="web-service-card">
+          <span class="web-service-number">02</span>
+          <span class="web-service-icon" aria-hidden="true">
+            <i class="fa-solid fa-clipboard-check"></i>
+          </span>
+          <h3>Form Functionality</h3>
+          <p>
+            Improve form behavior with input checks, clear feedback, and
+            helpful user-facing states.
+          </p>
+          <span class="web-service-label">FORMS</span>
+        </article>
+
+        <article class="web-service-card">
+          <span class="web-service-number">03</span>
+          <span class="web-service-icon" aria-hidden="true">
+            <i class="fa-solid fa-layer-group"></i>
+          </span>
+          <h3>Dynamic Content</h3>
+          <p>
+            Display or update page content in response to user actions or
+            available data.
+          </p>
+          <span class="web-service-label">DYNAMIC UI</span>
+        </article>
+
+        <article class="web-service-card">
+          <span class="web-service-number">04</span>
+          <span class="web-service-icon" aria-hidden="true">
+            <i class="fa-solid fa-plug"></i>
+          </span>
+          <h3>API Integration</h3>
+          <p>
+            Connect front-end features to suitable APIs or existing services
+            when project requirements allow.
+          </p>
+          <span class="web-service-label">INTEGRATION</span>
+        </article>
+
+        <article class="web-service-card">
+          <span class="web-service-number">05</span>
+          <span class="web-service-icon" aria-hidden="true">
+            <i class="fa-solid fa-bug-slash"></i>
+          </span>
+          <h3>Debugging and Fixes</h3>
+          <p>
+            Investigate JavaScript issues and make agreed fixes to existing
+            website functionality.
+          </p>
+          <span class="web-service-label">TROUBLESHOOTING</span>
+        </article>
+
+        <article class="web-service-card">
+          <span class="web-service-number">06</span>
+          <span class="web-service-icon" aria-hidden="true">
+            <i class="fa-solid fa-gauge-high"></i>
+          </span>
+          <h3>Code Improvements</h3>
+          <p>
+            Review and refine front-end code to support maintainability and
+            improve the user experience.
+          </p>
+          <span class="web-service-label">IMPROVEMENTS</span>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="business-section section" id="benefits">
+    <div class="container">
+      <div class="web-services-heading">
+        <p class="intro-eyebrow">BUILT AROUND YOUR USERS</p>
+        <h2>Make website interactions feel effortless.</h2>
+        <p>
+          Thoughtful JavaScript can help visitors complete tasks, understand
+          what’s happening, and get more from your website.
+        </p>
+      </div>
+
+      <div class="business-grid">
+        <article class="business-card">
+          <span class="business-icon" aria-hidden="true">
+            <i class="fa-solid fa-hand-pointer"></i>
+          </span>
+          <h3>Make actions clearer</h3>
+          <p>
+            Use responsive interface elements to provide useful feedback when
+            visitors interact with your website.
+          </p>
+        </article>
+
+        <article class="business-card">
+          <span class="business-icon" aria-hidden="true">
+            <i class="fa-solid fa-list-check"></i>
+          </span>
+          <h3>Support common tasks</h3>
+          <p>
+            Build features that help people navigate, submit information, or
+            explore content.
+          </p>
+        </article>
+
+        <article class="business-card">
+          <span class="business-icon" aria-hidden="true">
+            <i class="fa-solid fa-universal-access"></i>
+          </span>
+          <h3>Consider accessibility</h3>
+          <p>
+            Design interactions with usability in mind, including keyboard
+            access and clear states where appropriate.
+          </p>
+        </article>
+
+        <article class="business-card">
+          <span class="business-icon" aria-hidden="true">
+            <i class="fa-solid fa-puzzle-piece"></i>
+          </span>
+          <h3>Fit your existing site</h3>
+          <p>
+            Add features with your current website, tools, and project
+            requirements in mind.
+          </p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="cta-section" id="contact">
+    <div class="cta-content">
+      <p class="intro-eyebrow">LET’S BUILD SOMETHING USEFUL</p>
+      <h2>Have an idea for a website feature?</h2>
+      <p>
+        Tell me what you’d like your website to do and who it’s for. We can
+        discuss the requirements and decide on a practical approach.
+      </p>
+
+      <div class="cta-actions">
+        <a class="cta-button cta-button-primary" href="index.html#contact">
+          Discuss your project
+        </a>
+        <a class="cta-button cta-button-secondary" href="index.html#work">
+          View my work
+        </a>
+      </div>
+    </div>
+  </section>
+</main>
+</body>
+</html>

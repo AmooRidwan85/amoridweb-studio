@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta
+    name="description"
+    content="Amorid Web Studio designs and develops modern, responsive websites for businesses."
+  >
+  <meta name="theme-color" content="#0b1120">
+
+  <title>Amorid Web Studio | Web Design &amp; Development</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap"
+    rel="stylesheet"
+  >
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+  >
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="logo.png" type="image/png">
+
+  <script src="script.js" defer></script>
+</head>
+
+<body>
+  <header class="header-site">
+    <div class="header-layout">
+      <a href="#home" class="logo" aria-label="Amorid Web Studio home">
+        <img src="logo.png" alt="">
+        <span class="logo-name">Amorid<span>Web</span><small>studio</small></span>
+      </a>
+
+      <button
+        class="menu-toggle"
+        type="button"
+        aria-label="Open navigation menu"
+        aria-expanded="false"
+        aria-controls="navigation-content"
+      >
+        <i class="fa-solid fa-bars" aria-hidden="true"></i>
+      </button>
+
+      <nav class="navigation" id="navigation-content" aria-label="Main navigation">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="#about" class="nav-link">About</a>
+
+        <div class="service-menu">
+          <a
+            href="#services"
+            class="nav-link service-toggle"
+            aria-expanded="false"
+          >
+            Services
+            <i class="fa-solid fa-chevron-down" aria-hidden="true"></i>
+          </a>
+
+          <div class="service-dropdown">
+            <a href="web-development.html">Web Development</a>
+            <a href="frontend-development.html">Frontend Development</a>
+            <a href="website-management.html">Website Management</a>
+            <a href="web-design.html">Web Design</a>
+            <a href="javascript-development.html">JavaScript Development</a>
+            <a href="ui-creation.html">UI Creation</a>
+            <a href="responsive-website.html">Responsive Websites</a>
+            <a href="website-improvement.html">Website Improvements</a>
+          </div>
+        </div>
+
+        <a href="#work" class="nav-link">Portfolio</a>
+        <a href="#contact" class="nav-link">Contact</a>
+      </nav>
+
+      <a href="#contact" class="quote-button">Get a quote</a>
+
+      <div class="social-link" aria-label="Social media">
+        <a href="#" aria-label="Instagram">
+          <i class="fa-brands fa-instagram" aria-hidden="true"></i>
+        </a>
+        <a href="#" aria-label="Facebook">
+          <i class="fa-brands fa-facebook-f" aria-hidden="true"></i>
+        </a>
+        <a href="#" aria-label="TikTok">
+          <i class="fa-brands fa-tiktok" aria-hidden="true"></i>
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+  <section class="hero section" id="home">
+    <div class="hero-grid container">
+      <div class="hero-content">
+        <div class="availability">
+          <span class="status-dot" aria-hidden="true"></span>
+          Website Improvement
+        </div>
+
+        <h1>
+          Make your website
+          <span class="hero-accent">work better for you.</span>
+        </h1>
+
+        <p class="hero-description">
+          I help identify and improve areas of your website that may be
+          confusing, difficult to use, or out of date. From clearer page
+          layouts to responsive fixes, we can focus on practical improvements
+          that support your visitors and your goals.
+        </p>
+
+        <div class="hero-actions">
+          <a href="#services" class="btn btn-primary">
+            Explore improvement services <span aria-hidden="true">↓</span>
+          </a>
+          <a href="#contact" class="btn btn-secondary">Discuss your website</a>
+        </div>
+      </div>
+
+      <div class="hero-visual" aria-label="Illustration of a website improvement">
+        <div class="visual-orbit orbit-one" aria-hidden="true"></div>
+        <div class="visual-orbit orbit-two" aria-hidden="true"></div>
+
+        <div class="code-card">
+          <div class="code-topbar">
+            <div class="window-dots" aria-hidden="true">
+              <span></span><span></span><span></span>
+            </div>
+            <span>website-review.html</span>
+          </div>
+
+          <div class="code-body">
+            <div class="bar-show" aria-hidden="true">
+              <span class="blue"></span>
+              <span class="ink"></span>
+            </div>
+            <div class="code-page" aria-hidden="true">
+              <span class="line1"></span>
+              <span class="line2"></span>
+              <span class="line3"></span>
+              <span class="line4"></span>
+              <div class="line-btn">
+                <span class="line-btn1"></span>
+                <span class="line-btn2"></span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="floating-card card-project">
+          <span class="floating-label">Website improvement</span>
+          <strong>Find the friction. Improve what matters.</strong>
+          <div class="mini-progress" aria-hidden="true"><span></span></div>
+        </div>
+
+        <div class="floating-card card-location">
+          <span class="location-icon" aria-hidden="true">✦</span>
+          <div>
+            <small>Focused on</small>
+            <strong>Clearer, easier-to-use pages</strong>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="intro-section" id="about">
+    <div class="intro-content">
+      <p class="intro-eyebrow">WEBSITE REVIEW &amp; IMPROVEMENT</p>
+
+      <h2>
+        Small changes can<br>
+        <span>make a difference.</span>
+      </h2>
+
+      <p class="intro-lead">
+        Improve the experience without rebuilding everything.
+      </p>
+
+      <p class="intro-description">
+        We can review your existing website and prioritize opportunities to
+        make it clearer, more consistent, and easier to use. The right scope
+        might be a focused set of page updates, responsive fixes, or a broader
+        redesign plan.
+      </p>
+
+      <a class="intro-link" href="#services">
+        Explore improvement services <span aria-hidden="true">→</span>
+      </a>
+    </div>
+
+    <div class="intro-visual" aria-hidden="true">
+      <div class="visual-orbit orbit-one"></div>
+      <div class="visual-orbit orbit-two"></div>
+
+      <div class="visual-core">
+        <span>WEBSITE IMPROVEMENT</span>
+        <strong>BETTER, STEP BY STEP</strong>
+      </div>
+
+      <span class="blue-ball"></span>
+      <span class="visual-tag tag-one">Focused updates</span>
+      <span class="visual-tag tag-two">Clearer experience</span>
+    </div>
+  </section>
+
+  <section class="web-services section" id="services">
+    <div class="container">
+      <div class="web-services-heading">
+        <p class="intro-eyebrow">WEBSITE IMPROVEMENT SERVICES</p>
+        <h2>Practical updates for your existing website.</h2>
+        <p>
+          We’ll choose improvements based on your website, your visitors, and
+          the issues you want to address.
+        </p>
+      </div>
+
+      <div class="web-services-grid">
+        <article class="web-service-card">
+          <span class="web-service-number">01</span>
+          <span class="web-service-icon" aria-hidden="true">
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </span>
+          <h3>Website Review</h3>
+          <p>
+            Review key pages, layouts, and common user journeys to identify
+            areas that could be clearer or easier to use.
+          </p>
+          <span class="web-service-label">REVIEW</span>
+        </article>
+
+        <article class="web-service-card">
+          <span class="web-service-number">02</span>
+          <span class="web-service-icon" aria-hidden="true">
+            <i class="fa-solid fa-layer-group"></i>
+          </span>
+          <h3>Page Layout Updates</h3>
+          <p>
+            Improve page structure, spacing, and visual hierarchy to make
+            content easier to scan.
+          </p>
+          <span class="web-service-label">LAYOUTS</span>
+        </article>
+
+        <article class="web-service-card">
+          <span class="web-service-number">03</span>
+          <span class="web-service-icon" aria-hidden="true">
+            <i class="fa-solid fa-compass"></i>
+          </span>
+          <h3>Navigation Improvements</h3>
+          <p>
+            Refine menus, links, and page pathways so visitors can find
+            important information more easily.
+          </p>
+          <span class="web-service-label">NAVIGATION</span>
+        </article>
+
+        <article class="web-service-card">
+          <span class="web-service-number">04</span>
+          <span class="web-service-icon" aria-hidden="true">
+            <i class="fa-solid fa-mobile-screen-button"></i>
+          </span>
+          <h3>Responsive Fixes</h3>
+          <p>
+            Address layout and usability issues that appear on mobile, tablet,
+            or other viewport sizes.
+          </p>
+          <span class="web-service-label">RESPONSIVE DESIGN</span>
+        </article>
+
+        <article class="web-service-card">
+          <span class="web-service-number">05</span>
+          <span class="web-service-icon" aria-hidden="true">
+            <i class="fa-solid fa-universal-access"></i>
+          </span>
+          <h3>Usability and Accessibility</h3>
+          <p>
+            Improve readability and interaction details, while keeping
+            accessibility considerations in view.
+          </p>
+          <span class="web-service-label">USABILITY</span>
+        </article>
+
+        <article class="web-service-card">
+          <span class="web-service-number">06</span>
+          <span class="web-service-icon" aria-hidden="true">
+            <i class="fa-solid fa-list-check"></i>
+          </span>
+          <h3>Prioritized Action Plan</h3>
+          <p>
+            Organize suggested updates into clear next steps that fit your
+            project’s needs and available resources.
+          </p>
+          <span class="web-service-label">NEXT STEPS</span>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="business-section section" id="benefits">
+    <div class="container">
+      <div class="web-services-heading">
+        <p class="intro-eyebrow">A MORE USEFUL WEBSITE</p>
+        <h2>Focus improvements on real visitor needs.</h2>
+        <p>
+          Thoughtful updates can make your website easier to navigate and help
+          visitors find the information they came for.
+        </p>
+      </div>
+
+      <div class="business-grid">
+        <article class="business-card">
+          <span class="business-icon" aria-hidden="true">
+            <i class="fa-solid fa-eye"></i>
+          </span>
+          <h3>Make information easier to scan</h3>
+          <p>
+            Use clearer content structure and visual hierarchy to help visitors
+            find key details.
+          </p>
+        </article>
+
+        <article class="business-card">
+          <span class="business-icon" aria-hidden="true">
+            <i class="fa-solid fa-route"></i>
+          </span>
+          <h3>Simplify common journeys</h3>
+          <p>
+            Review how visitors move through your pages and make important
+            pathways easier to follow.
+          </p>
+        </article>
+
+        <article class="business-card">
+          <span class="business-icon" aria-hidden="true">
+            <i class="fa-solid fa-screwdriver-wrench"></i>
+          </span>
+          <h3>Build on what you have</h3>
+          <p>
+            Address specific needs with focused updates instead of assuming a
+            complete rebuild is necessary.
+          </p>
+        </article>
+
+        <article class="business-card">
+          <span class="business-icon" aria-hidden="true">
+            <i class="fa-solid fa-list-ol"></i>
+          </span>
+          <h3>Know what to tackle next</h3>
+          <p>
+            Get a clearer set of priorities to guide your next website
+            improvements.
+          </p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="cta-section" id="contact">
+    <div class="cta-content">
+      <p class="intro-eyebrow">LET’S IMPROVE YOUR WEBSITE</p>
+      <h2>What would you like your website to do better?</h2>
+      <p>
+        Tell me what’s working, what feels difficult, and what you’d like to
+        improve. We can discuss a practical plan that fits your website and
+        priorities.
+      </p>
+
+      <div class="cta-actions">
+        <a class="cta-button cta-button-primary" href="index.html#contact">
+          Discuss your website
+        </a>
+        <a class="cta-button cta-button-secondary" href="index.html#work">
+          View my work
+        </a>
+      </div>
+    </div>
+  </section>
+</main>
+</body>
+</html>
